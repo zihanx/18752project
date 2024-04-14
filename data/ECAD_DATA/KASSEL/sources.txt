@@ -1,0 +1,48 @@
+EUROPEAN CLIMATE ASSESSMENT & DATASET (ECA&D), file created on 22-04-2021
+THESE DATA CAN BE USED FREELY PROVIDED THAT THE FOLLOWING SOURCE IS ACKNOWLEDGED:
+
+Klein Tank, A.M.G. and Coauthors, 2002. Daily dataset of 20th-century surface
+air temperature and precipitation series for the European Climate Assessment.
+Int. J. of Climatol., 22, 1441-1453.
+Data and metadata available at http://www.ecad.eu
+
+FILE FORMAT (MISSING VALUE CODE IS -9999):
+
+ 01- 05 STAID  : Station identifier
+ 07- 12 SOUID  : Source identifier
+ 14- 53 SOUNAME: Source name
+ 55- 56 CN     : Country code (ISO3116 country codes)
+ 58- 66 LAT    : Latitude in degrees:minutes:seconds (+: North, -: South)
+ 68- 77 LON    : Longitude in degrees:minutes:seconds (+: East, -: West)
+ 79- 82 HGTH   : Station elevation in meters
+ 84- 87 ELEI   : Element identifier (see website at Daily Data > Data dictionary > Elements)
+ 89- 96 BEGIN  : Begin date YYYYMMDD
+ 98-105 END    : End date YYYYMMDD
+107-111 PARID  : Participant identifier
+113-163 PARNAME: Participant name
+
+STAID, SOUID,SOUNAME                                 ,CN,      LAT,       LON,HGHT,ELEI,   BEGIN,     END,PARID,PARNAME
+
+  480,102273,KASSEL                                  ,DE,+51:17:52,+009:26:37, 231, CC1,19510101,20131029,   11,National Climate Data Center (DWD)                
+  480,910438,KASSEL                                  ,DE,+51:18:00,+009:27:00, 231, CC7,19800101,20160623,     ,                    
+  480,190498,KASSEL                                  ,DE,+51:17:52,+009:26:37, 231, QQ2,19790204,20021029,   11,National Climate Data Center (DWD)                
+  480,210029,KASSEL                                  ,DE,+51:17:52,+009:26:37, 231, QQ6,19510101,20131031,   11,National Climate Data Center (DWD)                
+  480,102274,KASSEL                                  ,DE,+51:17:52,+009:26:37, 231, HU3,19510101,20131031,   11,National Climate Data Center (DWD)                
+  480,102280,KASSEL                                  ,DE,+51:17:52,+009:26:37, 231, TX3,19510101,20131031,   11,National Climate Data Center (DWD)                
+  480,910438,KASSEL                                  ,DE,+51:18:00,+009:27:00, 231, TX7,19820112,20131101,     ,                    
+  480,102278,KASSEL                                  ,DE,+51:17:52,+009:26:37, 231, TG3,19510101,20131031,   11,National Climate Data Center (DWD)                
+  480,910438,KASSEL                                  ,DE,+51:18:00,+009:27:00, 231, TG5,19820113,20131101,     ,                    
+  480,102279,KASSEL                                  ,DE,+51:17:52,+009:26:37, 231, TN3,19510101,20131031,   11,National Climate Data Center (DWD)                
+  480,910438,KASSEL                                  ,DE,+51:18:00,+009:27:00, 231, TN6,19820113,20131101,     ,                    
+  480,102276,KASSEL                                  ,DE,+51:17:52,+009:26:37, 231, RR3,19510101,20131031,   11,National Climate Data Center (DWD)                
+  480,910438,KASSEL                                  ,DE,+51:18:00,+009:27:00, 231, RR8,19820102,20131031,     ,                    
+  480,102275,KASSEL                                  ,DE,+51:17:52,+009:26:37, 231, PP2,19510101,20131101,   11,National Climate Data Center (DWD)                
+  480,910438,KASSEL                                  ,DE,+51:18:00,+009:27:00, 231,PP11,19800101,20141212,     ,                    
+  480,115765,KASSEL                                  ,DE,+51:17:52,+009:26:37, 231, SD3,19510101,20131031,   11,National Climate Data Center (DWD)                
+  480,910438,KASSEL                                  ,DE,+51:18:00,+009:27:00, 231, SD1,19820106,20130329,     ,                    
+  480,102277,KASSEL                                  ,DE,+51:17:52,+009:26:37, 231, SS3,19510101,20131031,   11,National Climate Data Center (DWD)                
+  480,910438,KASSEL                                  ,DE,+51:18:00,+009:27:00, 231, SS4,19930325,20131101,     ,                    
+  480,115767,KASSEL                                  ,DE,+51:17:52,+009:26:37, 231, FX1,19540101,20131031,   11,National Climate Data Center (DWD)                
+  480,910438,KASSEL                                  ,DE,+51:18:00,+009:27:00, 231, FX4,20000228,20131029,     ,                    
+  480,115766,KASSEL                                  ,DE,+51:17:52,+009:26:37, 231, FG7,19540101,20131031,   11,National Climate Data Center (DWD)                
+  480,910438,KASSEL                                  ,DE,+51:18:00,+009:27:00, 231, FG5,19800101,20160623,     ,                    

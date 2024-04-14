@@ -1,0 +1,21 @@
+EUROPEAN CLIMATE ASSESSMENT & DATASET (ECA&D), file created on 23-04-2021
+THESE DATA CAN BE USED FREELY PROVIDED THAT THE FOLLOWING SOURCE IS ACKNOWLEDGED:
+
+Klein Tank, A.M.G. and Coauthors, 2002. Daily dataset of 20th-century surface
+air temperature and precipitation series for the European Climate Assessment.
+Int. J. of Climatol., 22, 1441-1453.
+Data and metadata available at http://www.ecad.eu
+
+
+----------------------------------------------------------------
+6930,STOCKHOLM_SOL,SWEDEN,+59:21:00,+018:04:12,30 m 
+----------------------------------------------------------------
+* Land use:
+
+* Soil type:
+
+* Surface coverage:
+
+* History:
+The measuring site for global radiation and sunshine duration has moved a couple of times within Stockholm. The maximum distance is about 7 km between Bromma – Stocksund and between Bromma – Royal Institute of Technology (KTH). The present site at KTH is located about 3.5 km from Stocksund and 3 km from Fridhemsplan. Details are in https://www.smhi.se/publikationer/publikationer/long-term-global-radiation-in-stockholm-1922-2018-1.145705
+

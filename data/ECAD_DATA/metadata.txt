@@ -1,0 +1,32 @@
+Original weather data taken to create the "Weather prediction dataset".
+
+Data was downloaded from http://www.ecad.eu in April 2021.
+The source of the data is hence the following:
+
+EUROPEAN CLIMATE ASSESSMENT & DATASET (ECA&D), file created on 22-04-2021
+THESE DATA CAN BE USED FREELY PROVIDED THAT THE FOLLOWING SOURCE IS ACKNOWLEDGED:
+
+Klein Tank, A.M.G. and Coauthors, 2002. Daily dataset of 20th-century surface
+air temperature and precipitation series for the European Climate Assessment.
+Int. J. of Climatol., 22, 1441-1453.
+Data and metadata available at http://www.ecad.eu
+
+
+-----------
+Physical units of the variables:
+----------
+
+DATA UNITS:
+CC   : cloud cover in oktas
+DD   : wind direction in degrees
+FG   : wind speed in 0.1 m/s
+FX   : wind gust in 0.1 m/s
+HU   : humidity in 1 %
+PP   : sea level pressure in 0.1 hPa
+QQ   : global radiation in W/m2
+RR   : precipitation amount in 0.1 mm
+SS   : sunshine in 0.1 Hours
+TG   : mean temperature in 0.1 &#176;C
+TN   : minimum temperature in 0.1 &#176;C
+TX   : maximum temperature in 0.1 &#176;C
+

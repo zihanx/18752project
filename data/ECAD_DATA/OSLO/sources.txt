@@ -1,0 +1,104 @@
+EUROPEAN CLIMATE ASSESSMENT & DATASET (ECA&D), file created on 22-04-2021
+THESE DATA CAN BE USED FREELY PROVIDED THAT THE FOLLOWING SOURCE IS ACKNOWLEDGED:
+
+Klein Tank, A.M.G. and Coauthors, 2002. Daily dataset of 20th-century surface
+air temperature and precipitation series for the European Climate Assessment.
+Int. J. of Climatol., 22, 1441-1453.
+Data and metadata available at http://www.ecad.eu
+
+FILE FORMAT (MISSING VALUE CODE IS -9999):
+
+ 01- 05 STAID  : Station identifier
+ 07- 12 SOUID  : Source identifier
+ 14- 53 SOUNAME: Source name
+ 55- 56 CN     : Country code (ISO3116 country codes)
+ 58- 66 LAT    : Latitude in degrees:minutes:seconds (+: North, -: South)
+ 68- 77 LON    : Longitude in degrees:minutes:seconds (+: East, -: West)
+ 79- 82 HGTH   : Station elevation in meters
+ 84- 87 ELEI   : Element identifier (see website at Daily Data > Data dictionary > Elements)
+ 89- 96 BEGIN  : Begin date YYYYMMDD
+ 98-105 END    : End date YYYYMMDD
+107-111 PARID  : Participant identifier
+113-163 PARNAME: Participant name
+
+STAID, SOUID,SOUNAME                                 ,CN,      LAT,       LON,HGHT,ELEI,   BEGIN,     END,PARID,PARNAME
+
+  193,109752,OSLO BLINDERN                           ,NO,+59:56:34,+010:43:15,  94, CC7,19510101,20210331,   22,Hans Olav Hygen                                   
+  193,198316,OSLO BLINDERN                           ,NO,+59:56:34,+010:43:15,  94, QQ3,19961009,20210331,   22,Hans Olav Hygen                                   
+  193,209928,OSLO BLINDERN                           ,NO,+59:56:34,+010:43:15,  94, QQ6,19520707,20210331,   22,Hans Olav Hygen                                   
+  193,109755,OSLO BLINDERN                           ,NO,+59:56:34,+010:43:15,  94, HU6,19510101,20210331,   22,Hans Olav Hygen                                   
+18799,109755,OSLO BLINDERN                           ,NO,+59:56:34,+010:43:15,  94, HU6,19510101,20210331,   22,Hans Olav Hygen                                   
+18799,204569,ALNA                                    ,NO,+59:55:38,+010:50:07,  90, HU6,20071201,20150629,   22,Hans Olav Hygen                                   
+18799,205038,OSLO - HOVIN                            ,NO,+59:55:23,+010:48:14, 100, HU6,20111122,20210331,   22,Hans Olav Hygen                                   
+18302,109755,OSLO BLINDERN                           ,NO,+59:56:34,+010:43:15,  94, HU6,19510101,20210331,   22,Hans Olav Hygen                                   
+18302,204569,ALNA                                    ,NO,+59:55:38,+010:50:07,  90, HU6,20071201,20150629,   22,Hans Olav Hygen                                   
+18302,205038,OSLO - HOVIN                            ,NO,+59:55:23,+010:48:14, 100, HU6,20111122,20210331,   22,Hans Olav Hygen                                   
+  193,100602,OSLO BLINDERN                           ,NO,+59:56:34,+010:43:15,  94, TX2,19370301,20210331,   22,Hans Olav Hygen                                   
+18799,100602,OSLO BLINDERN                           ,NO,+59:56:34,+010:43:15,  94, TX2,19370301,20210331,   22,Hans Olav Hygen                                   
+18799,199006,OSLO - HOVIN                            ,NO,+59:55:23,+010:48:14, 100, TX2,20160504,20210331,   22,Hans Olav Hygen                                   
+18799,200247,ALNA                                    ,NO,+59:55:38,+010:50:07,  90, TX2,20071201,20150629,   22,Hans Olav Hygen                                   
+18302,100602,OSLO BLINDERN                           ,NO,+59:56:34,+010:43:15,  94, TX2,19370301,20210331,   22,Hans Olav Hygen                                   
+18302,199006,OSLO - HOVIN                            ,NO,+59:55:23,+010:48:14, 100, TX2,20160504,20210331,   22,Hans Olav Hygen                                   
+18302,200247,ALNA                                    ,NO,+59:55:38,+010:50:07,  90, TX2,20071201,20150629,   22,Hans Olav Hygen                                   
+  193,100601,OSLO BLINDERN                           ,NO,+59:56:34,+010:43:15,  94,TG21,19370201,20210331,   22,Hans Olav Hygen                                   
+  193,901492,OSLO-BLINDERN                           ,NO,+59:57:00,+010:43:00,  96, TG5,19960928,20200228,     ,                    
+18799,100601,OSLO BLINDERN                           ,NO,+59:56:34,+010:43:15,  94,TG21,19370201,20210331,   22,Hans Olav Hygen                                   
+18799,199668,OSLO - HOVIN                            ,NO,+59:55:23,+010:48:14, 100,TG21,20120201,20210331,   22,Hans Olav Hygen                                   
+18799,200647,ALNA                                    ,NO,+59:55:38,+010:50:07,  90,TG21,20071201,20150629,   22,Hans Olav Hygen                                   
+18799,901492,OSLO-BLINDERN                           ,NO,+59:57:00,+010:43:00,  96, TG5,19960928,20200228,     ,                    
+18302,100601,OSLO BLINDERN                           ,NO,+59:56:34,+010:43:15,  94,TG21,19370201,20210331,   22,Hans Olav Hygen                                   
+18302,199668,OSLO - HOVIN                            ,NO,+59:55:23,+010:48:14, 100,TG21,20120201,20210331,   22,Hans Olav Hygen                                   
+18302,200647,ALNA                                    ,NO,+59:55:38,+010:50:07,  90,TG21,20071201,20150629,   22,Hans Olav Hygen                                   
+18302,901492,OSLO-BLINDERN                           ,NO,+59:57:00,+010:43:00,  96, TG5,19960928,20200228,     ,                    
+  193,100600,OSLO BLINDERN                           ,NO,+59:56:34,+010:43:15,  94, TN2,19370101,20210331,   22,Hans Olav Hygen                                   
+18799,100600,OSLO BLINDERN                           ,NO,+59:56:34,+010:43:15,  94, TN2,19370101,20210331,   22,Hans Olav Hygen                                   
+18799,198692,OSLO - HOVIN                            ,NO,+59:55:23,+010:48:14, 100, TN2,20160504,20210331,   22,Hans Olav Hygen                                   
+18799,199829,ALNA                                    ,NO,+59:55:38,+010:50:07,  90, TN2,20071201,20150629,   22,Hans Olav Hygen                                   
+18302,100600,OSLO BLINDERN                           ,NO,+59:56:34,+010:43:15,  94, TN2,19370101,20210331,   22,Hans Olav Hygen                                   
+18302,198692,OSLO - HOVIN                            ,NO,+59:55:23,+010:48:14, 100, TN2,20160504,20210331,   22,Hans Olav Hygen                                   
+18302,199829,ALNA                                    ,NO,+59:55:38,+010:50:07,  90, TN2,20071201,20150629,   22,Hans Olav Hygen                                   
+  193,105488,OSLO BLINDERN                           ,NO,+59:56:34,+010:43:15,  94, RR2,19370228,20210330,   22,Hans Olav Hygen                                   
+  193,201048,SANKTHANSHAUGEN I OSLO                  ,NO,+59:56:00,+010:45:00,  83, RR2,18991231,19640729,   22,Hans Olav Hygen                                   
+19214,105488,OSLO BLINDERN                           ,NO,+59:56:34,+010:43:15,  94, RR2,19370228,20210330,   22,Hans Olav Hygen                                   
+19214,201048,SANKTHANSHAUGEN I OSLO                  ,NO,+59:56:00,+010:45:00,  83, RR2,18991231,19640729,   22,Hans Olav Hygen                                   
+19214,201571,HEFTYELOEKKEN                           ,NO,+59:56:00,+010:46:00,  90, RR2,18991231,19720329,   22,Hans Olav Hygen                                   
+19214,202109,OSLO - BJOELSEN                         ,NO,+59:56:30,+010:44:54,  74, RR2,20140506,20201112,   22,Hans Olav Hygen                                   
+18302,105488,OSLO BLINDERN                           ,NO,+59:56:34,+010:43:15,  94, RR2,19370228,20210330,   22,Hans Olav Hygen                                   
+18302,201211,BRYN                                    ,NO,+59:54:44,+010:48:49,  93, RR2,19570102,19881226,   22,Hans Olav Hygen                                   
+18302,201571,HEFTYELOEKKEN                           ,NO,+59:56:00,+010:46:00,  90, RR2,18991231,19720329,   22,Hans Olav Hygen                                   
+18302,201614,OSLO - LOEREN                           ,NO,+59:55:43,+010:47:25,  88, RR2,20140202,20210330,   22,Hans Olav Hygen                                   
+18302,202064,KAMPEN I OSLO                           ,NO,+59:55:00,+010:47:00,  77, RR2,19570102,19610928,   22,Hans Olav Hygen                                   
+18302,202197,OSLO - HOEYENHALL                       ,NO,+59:54:12,+010:49:16,  80, RR2,20140506,20210330,   22,Hans Olav Hygen                                   
+18302,202324,OSLO - HOVIN                            ,NO,+59:55:23,+010:48:14, 100, RR2,20060124,20210330,   22,Hans Olav Hygen                                   
+  193,105487,OSLO BLINDERN                           ,NO,+59:56:34,+010:43:15,  94,PP11,19570101,20210331,   22,Hans Olav Hygen                                   
+  193,109754,OSLO BLINDERN                           ,NO,+59:56:34,+010:43:15,  94, SD3,19370301,20200831,   22,Hans Olav Hygen                                   
+  193,901492,OSLO-BLINDERN                           ,NO,+59:57:00,+010:43:00,  96, SD1,19961107,20200229,     ,                    
+  193,109753,OSLO BLINDERN                           ,NO,+59:56:34,+010:43:15,  94, SS4,19520707,20210331,   22,Hans Olav Hygen                                   
+  193,114725,OSLO BLINDERN                           ,NO,+59:56:34,+010:43:15,  94, DD4,19370301,20190731,   22,Hans Olav Hygen                                   
+  193,901492,OSLO-BLINDERN                           ,NO,+59:57:00,+010:43:00,  96, DD4,19810412,20200229,     ,                    
+  193,114723,OSLO BLINDERN                           ,NO,+59:56:34,+010:43:15,  94, FX5,19820101,20210331,   22,Hans Olav Hygen                                   
+  193,205780,ALNA                                    ,NO,+59:55:38,+010:50:07,  90, FX5,20071204,20150530,   22,Hans Olav Hygen                                   
+  193,205948,OSLO - HOVIN                            ,NO,+59:55:23,+010:48:14, 100, FX5,20120307,20210331,   22,Hans Olav Hygen                                   
+  193,901492,OSLO-BLINDERN                           ,NO,+59:57:00,+010:43:00,  96, FX4,20000228,20200229,     ,                    
+18799,114723,OSLO BLINDERN                           ,NO,+59:56:34,+010:43:15,  94, FX5,19820101,20210331,   22,Hans Olav Hygen                                   
+18799,205780,ALNA                                    ,NO,+59:55:38,+010:50:07,  90, FX5,20071204,20150530,   22,Hans Olav Hygen                                   
+18799,205823,KJELLER                                 ,NO,+59:58:15,+011:02:18, 108, FX5,20091209,20210331,   22,Hans Olav Hygen                                   
+18799,205948,OSLO - HOVIN                            ,NO,+59:55:23,+010:48:14, 100, FX5,20120307,20210331,   22,Hans Olav Hygen                                   
+18799,901487,ALNA                                    ,NO,+59:56:00,+010:50:00,  90, FX4,20080125,20150601,     ,                    
+18799,901492,OSLO-BLINDERN                           ,NO,+59:57:00,+010:43:00,  96, FX4,20000228,20200229,     ,                    
+18302,114723,OSLO BLINDERN                           ,NO,+59:56:34,+010:43:15,  94, FX5,19820101,20210331,   22,Hans Olav Hygen                                   
+18302,205780,ALNA                                    ,NO,+59:55:38,+010:50:07,  90, FX5,20071204,20150530,   22,Hans Olav Hygen                                   
+18302,205948,OSLO - HOVIN                            ,NO,+59:55:23,+010:48:14, 100, FX5,20120307,20210331,   22,Hans Olav Hygen                                   
+18302,901487,ALNA                                    ,NO,+59:56:00,+010:50:00,  90, FX4,20080125,20150601,     ,                    
+18302,901492,OSLO-BLINDERN                           ,NO,+59:57:00,+010:43:00,  96, FX4,20000228,20200229,     ,                    
+  193,114724,OSLO BLINDERN                           ,NO,+59:56:34,+010:43:15,  94, FG2,19510101,20210331,   22,Hans Olav Hygen                                   
+  193,205223,ALNA                                    ,NO,+59:55:38,+010:50:07,  90, FG2,20071203,20150608,   22,Hans Olav Hygen                                   
+  193,901492,OSLO-BLINDERN                           ,NO,+59:57:00,+010:43:00,  96, FG5,19810412,20200229,     ,                    
+18799,114724,OSLO BLINDERN                           ,NO,+59:56:34,+010:43:15,  94, FG2,19510101,20210331,   22,Hans Olav Hygen                                   
+18799,205223,ALNA                                    ,NO,+59:55:38,+010:50:07,  90, FG2,20071203,20150608,   22,Hans Olav Hygen                                   
+18799,205680,OSLO - HOVIN                            ,NO,+59:55:23,+010:48:14, 100, FG2,20111122,20210331,   22,Hans Olav Hygen                                   
+18799,901492,OSLO-BLINDERN                           ,NO,+59:57:00,+010:43:00,  96, FG5,19810412,20200229,     ,                    
+18302,114724,OSLO BLINDERN                           ,NO,+59:56:34,+010:43:15,  94, FG2,19510101,20210331,   22,Hans Olav Hygen                                   
+18302,205223,ALNA                                    ,NO,+59:55:38,+010:50:07,  90, FG2,20071203,20150608,   22,Hans Olav Hygen                                   
+18302,205680,OSLO - HOVIN                            ,NO,+59:55:23,+010:48:14, 100, FG2,20111122,20210331,   22,Hans Olav Hygen                                   
+18302,901492,OSLO-BLINDERN                           ,NO,+59:57:00,+010:43:00,  96, FG5,19810412,20200229,     ,                    

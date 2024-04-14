@@ -1,0 +1,38 @@
+EUROPEAN CLIMATE ASSESSMENT & DATASET (ECA&D), file created on 28-03-2021
+THESE DATA CAN BE USED FREELY PROVIDED THAT THE FOLLOWING SOURCE IS ACKNOWLEDGED:
+
+Klein Tank, A.M.G. and Coauthors, 2002. Daily dataset of 20th-century surface
+air temperature and precipitation series for the European Climate Assessment.
+Int. J. of Climatol., 22, 1441-1453.
+Data and metadata available at http://www.ecad.eu
+
+
+----------------------------------------------------------------
+162,DE BILT,NETHERLANDS,+52:05:56,+005:10:47,2 m 
+----------------------------------------------------------------
+* Land use:
+Partly open landscape. Broad transition zone between the low sandy hills of the Utrechtse Heuvelrug and the basin of the river Kromme Rijn. Meadows and arable land alternate with built-up areas and woodlands.
+* Soil type:
+Sand
+* Surface coverage:
+Grass
+* History:
+19500916 relocation westwards <br>
+19510827 relocation southwards (300m) <br>
+20080925 relocation eastwards (230m) <br>
+<br>
+Temperature: <br>
+19010101-19500516 thermograph in large pagodehut (2.2 m),<br>
+19500517-19610628 thermograph in Stevensonhut (2.2 m), <br>
+19610629-19930625 electronic measurement in Stevensonhut (1.5 m), <br>
+19930326-present electronic sensors in round-plated screen<br>
+Pressure:<br>
+18481201-18951231 pressure as mean value of the 7:40, 13:40 and 21:40 GMT air pressures <br>
+18481201-18961231 pressure measured at Utrecht 52°05(N), 05°08(E) <br>
+18960101-19011231 pressure as mean value of the 7:40, 13:40 and 18:40 GMT air pressures <br>
+19020101-present pressure as mean value of 24 hourly measurements <br>
+<br>
+19020101-19731015 barograph and mercury barometer, <br>
+19731016-19930625 barograph en digital aneroid barometer, <br>
+19930626-electronic measurement<br>
+

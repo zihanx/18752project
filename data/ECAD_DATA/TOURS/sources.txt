@@ -1,0 +1,43 @@
+EUROPEAN CLIMATE ASSESSMENT & DATASET (ECA&D), file created on 22-04-2021
+THESE DATA CAN BE USED FREELY PROVIDED THAT THE FOLLOWING SOURCE IS ACKNOWLEDGED:
+
+Klein Tank, A.M.G. and Coauthors, 2002. Daily dataset of 20th-century surface
+air temperature and precipitation series for the European Climate Assessment.
+Int. J. of Climatol., 22, 1441-1453.
+Data and metadata available at http://www.ecad.eu
+
+FILE FORMAT (MISSING VALUE CODE IS -9999):
+
+ 01- 05 STAID  : Station identifier
+ 07- 12 SOUID  : Source identifier
+ 14- 53 SOUNAME: Source name
+ 55- 56 CN     : Country code (ISO3116 country codes)
+ 58- 66 LAT    : Latitude in degrees:minutes:seconds (+: North, -: South)
+ 68- 77 LON    : Longitude in degrees:minutes:seconds (+: East, -: West)
+ 79- 82 HGTH   : Station elevation in meters
+ 84- 87 ELEI   : Element identifier (see website at Daily Data > Data dictionary > Elements)
+ 89- 96 BEGIN  : Begin date YYYYMMDD
+ 98-105 END    : End date YYYYMMDD
+107-111 PARID  : Participant identifier
+113-163 PARNAME: Participant name
+
+STAID, SOUID,SOUNAME                                 ,CN,      LAT,       LON,HGHT,ELEI,   BEGIN,     END,PARID,PARNAME
+
+ 2190,190839,TOURS                                   ,FR,+47:26:40,+000:43:38, 108, QQ5,19760601,20171231,   72,Anatoly V. Tsvetkov                               
+ 2190,210217,TOURS                                   ,FR,+47:26:40,+000:43:38, 108, QQ6,19610101,20050101,   10,Jean-Michel Soubeyroux                            
+ 2190,907240,TOURS                                   ,FR,+47:27:00,+000:44:00, 112, QQ1,20160101,20200229,     ,                    
+ 2190,175655,TOURS                                   ,FR,+47:26:40,+000:43:38, 108,HU13,19610101,20191231,   10,Jean-Michel Soubeyroux                            
+ 2190,907240,TOURS                                   ,FR,+47:27:00,+000:44:00, 112, HU6,20150501,20200229,     ,                    
+ 2190,106433,TOURS                                   ,FR,+47:26:40,+000:43:38, 108, TX6,19591101,20191231,   10,Jean-Michel Soubeyroux                            
+ 2190,907240,TOURS                                   ,FR,+47:27:00,+000:44:00, 112, TX7,19820112,20200229,     ,                    
+ 2190,107211,TOURS                                   ,FR,+47:26:40,+000:43:38, 108, TG5,19591101,20191231,   10,Jean-Michel Soubeyroux                            
+ 2190,907240,TOURS                                   ,FR,+47:27:00,+000:44:00, 112, TG5,19820113,20200229,     ,                    
+ 2190,106676,TOURS                                   ,FR,+47:26:40,+000:43:38, 108, TN2,19591101,20191231,   10,Jean-Michel Soubeyroux                            
+ 2190,907240,TOURS                                   ,FR,+47:27:00,+000:44:00, 112, TN6,19820113,20200229,     ,                    
+ 2190,106190,TOURS                                   ,FR,+47:26:40,+000:43:38, 108, RR9,19591101,20191231,   10,Jean-Michel Soubeyroux                            
+ 2190,907240,TOURS                                   ,FR,+47:27:00,+000:44:00, 112, RR8,19820101,20200229,     ,                    
+ 2190,175654,TOURS                                   ,FR,+47:26:40,+000:43:38, 108,PP23,19641001,20191231,   10,Jean-Michel Soubeyroux                            
+ 2190,907240,TOURS                                   ,FR,+47:27:00,+000:44:00, 112,PP11,19800101,20200229,     ,                    
+ 2190,104929,TOURS                                   ,FR,+47:26:40,+000:43:38, 108, SS1,19610101,20050101,   10,Jean-Michel Soubeyroux                            
+ 2190,175656,TOURS                                   ,FR,+47:26:40,+000:43:38, 108,FG12,19610101,20191231,   10,Jean-Michel Soubeyroux                            
+ 2190,907240,TOURS                                   ,FR,+47:27:00,+000:44:00, 112, FG5,19800101,20200229,     ,                    

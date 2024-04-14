@@ -1,0 +1,29 @@
+EUROPEAN CLIMATE ASSESSMENT & DATASET (ECA&D), file created on 22-04-2021
+THESE DATA CAN BE USED FREELY PROVIDED THAT THE FOLLOWING SOURCE IS ACKNOWLEDGED:
+
+Klein Tank, A.M.G. and Coauthors, 2002. Daily dataset of 20th-century surface
+air temperature and precipitation series for the European Climate Assessment.
+Int. J. of Climatol., 22, 1441-1453.
+Data and metadata available at http://www.ecad.eu
+
+
+----------------------------------------------------------------
+168,MAASTRICHT,NETHERLANDS,+50:54:19,+005:45:43,114 m 
+----------------------------------------------------------------
+* Land use:
+Located in a slighly sloping area, grassland and arable land. Forest on slopes in the vicinity. Airport area
+* Soil type:
+Loss (chalk)
+* Surface coverage:
+
+* History:
+Temperature:  <br>
+19451201-19610413 thermograph in Stevensonhut (at 2,20 meter),  <br>
+19610414-19760131 thermograph in Stevensonhut (at 1,50 meter),  <br>
+19760201-19910228 electronic measurement in Stevensonhut (at 1,50 meter),  <br>
+19910301-present electronic sensors in round-plated screen (at 1,50 meter) <br>
+Pressure:  <br>
+19451201-19800708 barograph and mercury barometer,  <br>
+19800709-19910228 barograph and digitale aneroide barometer,  <br>
+19910301-present electronic measurement <br>
+

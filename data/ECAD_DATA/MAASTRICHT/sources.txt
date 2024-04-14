@@ -1,0 +1,53 @@
+EUROPEAN CLIMATE ASSESSMENT & DATASET (ECA&D), file created on 22-04-2021
+THESE DATA CAN BE USED FREELY PROVIDED THAT THE FOLLOWING SOURCE IS ACKNOWLEDGED:
+
+Klein Tank, A.M.G. and Coauthors, 2002. Daily dataset of 20th-century surface
+air temperature and precipitation series for the European Climate Assessment.
+Int. J. of Climatol., 22, 1441-1453.
+Data and metadata available at http://www.ecad.eu
+
+FILE FORMAT (MISSING VALUE CODE IS -9999):
+
+ 01- 05 STAID  : Station identifier
+ 07- 12 SOUID  : Source identifier
+ 14- 53 SOUNAME: Source name
+ 55- 56 CN     : Country code (ISO3116 country codes)
+ 58- 66 LAT    : Latitude in degrees:minutes:seconds (+: North, -: South)
+ 68- 77 LON    : Longitude in degrees:minutes:seconds (+: East, -: West)
+ 79- 82 HGTH   : Station elevation in meters
+ 84- 87 ELEI   : Element identifier (see website at Daily Data > Data dictionary > Elements)
+ 89- 96 BEGIN  : Begin date YYYYMMDD
+ 98-105 END    : End date YYYYMMDD
+107-111 PARID  : Participant identifier
+113-163 PARNAME: Participant name
+
+STAID, SOUID,SOUNAME                                 ,CN,      LAT,       LON,HGHT,ELEI,   BEGIN,     END,PARID,PARNAME
+
+  168,102104,MAASTRICHT                              ,NL,+50:54:19,+005:45:43, 114, CC1,19510102,20210331,   19,Philippe Steeghs                                  
+  168,906380,BEEK/MAASTRICHT AP/MAASTRICHT AACHEN    ,NL,+50:55:00,+005:47:00, 116, CC7,19800101,20200229,     ,                    
+  168,175727,MAASTRICHT                              ,NL,+50:54:19,+005:45:43, 114, QQ2,19640601,20210331,   19,Philippe Steeghs                                  
+  168,209918,MAASTRICHT                              ,NL,+50:54:19,+005:45:43, 114, QQ6,19060101,20210331,   19,Philippe Steeghs                                  
+  168,102106,MAASTRICHT                              ,NL,+50:54:19,+005:45:43, 114, HU3,19060101,20210331,   19,Philippe Steeghs                                  
+  168,906380,BEEK/MAASTRICHT AP/MAASTRICHT AACHEN    ,NL,+50:55:00,+005:47:00, 116, HU6,20150501,20200229,     ,                    
+  168,100546,MAASTRICHT                              ,NL,+50:54:19,+005:45:43, 114, TX3,19060101,20210331,   19,Philippe Steeghs                                  
+  168,906380,BEEK/MAASTRICHT AP/MAASTRICHT AACHEN    ,NL,+50:55:00,+005:47:00, 116, TX7,19820112,20200229,     ,                    
+  168,100545,MAASTRICHT                              ,NL,+50:54:19,+005:45:43, 114,TG21,19060101,20210331,   19,Philippe Steeghs                                  
+  168,100544,MAASTRICHT                              ,NL,+50:54:19,+005:45:43, 114, TN3,19060101,20210331,   19,Philippe Steeghs                                  
+  168,102102,MAASTRICHT-2                            ,NL,+50:51:00,+005:41:00, 126, RR2,19001231,20050531,   19,Philippe Steeghs                                  
+  168,108988,BEEK                                    ,NL,+50:56:00,+005:49:00, 115, RR2,19501231,20210309,   19,Philippe Steeghs                                  
+  168,152472,MAASTRICHT                              ,NL,+50:54:19,+005:45:43, 114, RR7,19570101,20210331,   19,Philippe Steeghs                                  
+ 2568,102102,MAASTRICHT-2                            ,NL,+50:51:00,+005:41:00, 126, RR2,19001231,20050531,   19,Philippe Steeghs                                  
+ 2568,152472,MAASTRICHT                              ,NL,+50:54:19,+005:45:43, 114, RR7,19570101,20210331,   19,Philippe Steeghs                                  
+ 2568,906380,BEEK/MAASTRICHT AP/MAASTRICHT AACHEN    ,NL,+50:55:00,+005:47:00, 116, RR8,19820104,20200229,     ,                    
+ 2365,108988,BEEK                                    ,NL,+50:56:00,+005:49:00, 115, RR2,19501231,20210309,   19,Philippe Steeghs                                  
+ 2365,152472,MAASTRICHT                              ,NL,+50:54:19,+005:45:43, 114, RR7,19570101,20210331,   19,Philippe Steeghs                                  
+ 2365,209292,CRAUBEEK                                ,NL,+50:52:39,+005:54:09, 100, RR2,19340801,19521129,   19,Philippe Steeghs                                  
+  168,100547,MAASTRICHT                              ,NL,+50:54:19,+005:45:43, 114, PP2,19060101,20210331,   19,Philippe Steeghs                                  
+  168,906380,BEEK/MAASTRICHT AP/MAASTRICHT AACHEN    ,NL,+50:55:00,+005:47:00, 116,PP11,19800101,20200229,     ,                    
+  168,102105,MAASTRICHT                              ,NL,+50:54:19,+005:45:43, 114, SS3,19060101,20210331,   19,Philippe Steeghs                                  
+  168,113662,MAASTRICHT                              ,NL,+50:54:19,+005:45:43, 114, DD1,19060101,20210331,   19,Philippe Steeghs                                  
+  168,906380,BEEK/MAASTRICHT AP/MAASTRICHT AACHEN    ,NL,+50:55:00,+005:47:00, 116, DD4,19800101,20200229,     ,                    
+  168,113660,MAASTRICHT                              ,NL,+50:54:19,+005:45:43, 114, FX1,19710101,20210331,   19,Philippe Steeghs                                  
+  168,906380,BEEK/MAASTRICHT AP/MAASTRICHT AACHEN    ,NL,+50:55:00,+005:47:00, 116, FX4,20000228,20200229,     ,                    
+  168,113661,MAASTRICHT                              ,NL,+50:54:19,+005:45:43, 114, FG1,19060101,20210331,   19,Philippe Steeghs                                  
+  168,906380,BEEK/MAASTRICHT AP/MAASTRICHT AACHEN    ,NL,+50:55:00,+005:47:00, 116, FG5,19800101,20200229,     ,                    

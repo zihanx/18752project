@@ -1,0 +1,48 @@
+EUROPEAN CLIMATE ASSESSMENT & DATASET (ECA&D), file created on 23-04-2021
+THESE DATA CAN BE USED FREELY PROVIDED THAT THE FOLLOWING SOURCE IS ACKNOWLEDGED:
+
+Klein Tank, A.M.G. and Coauthors, 2002. Daily dataset of 20th-century surface
+air temperature and precipitation series for the European Climate Assessment.
+Int. J. of Climatol., 22, 1441-1453.
+Data and metadata available at http://www.ecad.eu
+
+FILE FORMAT (MISSING VALUE CODE IS -9999):
+
+ 01- 05 STAID  : Station identifier
+ 07- 12 SOUID  : Source identifier
+ 14- 53 SOUNAME: Source name
+ 55- 56 CN     : Country code (ISO3116 country codes)
+ 58- 66 LAT    : Latitude in degrees:minutes:seconds (+: North, -: South)
+ 68- 77 LON    : Longitude in degrees:minutes:seconds (+: East, -: West)
+ 79- 82 HGTH   : Station elevation in meters
+ 84- 87 ELEI   : Element identifier (see website at Daily Data > Data dictionary > Elements)
+ 89- 96 BEGIN  : Begin date YYYYMMDD
+ 98-105 END    : End date YYYYMMDD
+107-111 PARID  : Participant identifier
+113-163 PARNAME: Participant name
+
+STAID, SOUID,SOUNAME                                 ,CN,      LAT,       LON,HGHT,ELEI,   BEGIN,     END,PARID,PARNAME
+
+   15,102154,SONNBLICK                               ,AT,+47:03:00,+012:57:00,3106,CC12,19010101,20101231,    3,Wolfgang Lipa                                     
+   15,911146,SONNBLICK                               ,AT,+47:03:00,+012:57:00,3111, CC7,19800101,20200122,     ,                    
+   15,190609,SONNBLICK                               ,AT,+47:03:00,+012:57:00,3106, QQ4,20130101,20181231,   71,BSRN                                              
+   15,190784,SONNBLICK                               ,AT,+47:03:00,+012:57:00,3106, QQ5,19640101,20171231,   72,Anatoly V. Tsvetkov                               
+   15,102155,SONNBLICK                               ,AT,+47:03:00,+012:57:00,3106, HU9,19010101,20101231,    3,Wolfgang Lipa                                     
+   15,102152,SONNBLICK                               ,AT,+47:03:00,+012:57:00,3106,TX12,18861101,20101231,    3,Wolfgang Lipa                                     
+   15,117875,SONNBLICK                               ,AT,+47:03:00,+012:57:00,3106, TX1,18900801,20110123,   50,GHCND                                             
+   15,911146,SONNBLICK                               ,AT,+47:03:00,+012:57:00,3111, TX7,19820112,20200122,     ,                    
+   15,911343,SONNBLICK -AUTOM.                       ,AT,+47:03:00,+012:57:00,3111, TX7,19980703,20200229,     ,                    
+   15,100040,SONNBLICK                               ,AT,+47:03:00,+012:57:00,3106, TG7,19010101,20101231,    3,Wolfgang Lipa                                     
+   15,911146,SONNBLICK                               ,AT,+47:03:00,+012:57:00,3111, TG5,19820113,20200122,     ,                    
+   15,911343,SONNBLICK -AUTOM.                       ,AT,+47:03:00,+012:57:00,3111, TG5,19980704,20200229,     ,                    
+   15,102153,SONNBLICK                               ,AT,+47:03:00,+012:57:00,3106,TN11,18861101,20101231,    3,Wolfgang Lipa                                     
+   15,117874,SONNBLICK                               ,AT,+47:03:00,+012:57:00,3106, TN1,18900801,20110123,   50,GHCND                                             
+   15,911146,SONNBLICK                               ,AT,+47:03:00,+012:57:00,3111, TN6,19820113,20200122,     ,                    
+   15,911343,SONNBLICK -AUTOM.                       ,AT,+47:03:00,+012:57:00,3111, TN6,19980704,20200229,     ,                    
+   15,100041,SONNBLICK                               ,AT,+47:03:00,+012:57:00,3106, RR3,19010101,20101231,    3,Wolfgang Lipa                                     
+   15,117876,SONNBLICK                               ,AT,+47:03:00,+012:57:00,3106, RR1,19010101,20110123,   50,GHCND                                             
+   15,911146,SONNBLICK                               ,AT,+47:03:00,+012:57:00,3111, RR8,19850123,20200121,     ,                    
+   15,911343,SONNBLICK -AUTOM.                       ,AT,+47:03:00,+012:57:00,3111, RR8,19980703,20200121,     ,                    
+   15,102156,SONNBLICK                               ,AT,+47:03:00,+012:57:00,3106, SD3,19380501,20101231,    3,Wolfgang Lipa                                     
+   15,102157,SONNBLICK                               ,AT,+47:03:00,+012:57:00,3106, SS3,19010101,20050131,    3,Wolfgang Lipa                                     
+   15,132866,SONNBLICK                               ,AT,+47:03:00,+012:57:00,3106, SS3,20050101,20101231,    3,Wolfgang Lipa                                     

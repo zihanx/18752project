@@ -1,0 +1,22 @@
+EUROPEAN CLIMATE ASSESSMENT & DATASET (ECA&D), file created on 23-04-2021
+THESE DATA CAN BE USED FREELY PROVIDED THAT THE FOLLOWING SOURCE IS ACKNOWLEDGED:
+
+Klein Tank, A.M.G. and Coauthors, 2002. Daily dataset of 20th-century surface
+air temperature and precipitation series for the European Climate Assessment.
+Int. J. of Climatol., 22, 1441-1453.
+Data and metadata available at http://www.ecad.eu
+
+
+----------------------------------------------------------------
+15,SONNBLICK,AUSTRIA,+47:03:00,+012:57:00,3106 m 
+----------------------------------------------------------------
+* Land use:
+Mountaintop site in the eastern Alps, national park “Hohe Tauern”, unpopulated.
+Steep rocky N-wall about 1500m above valley bottom, the W-S-E-sector of immediate surrounding less steep and glaciated. Over 1000m above the upper tree line.
+* Soil type:
+
+* Surface coverage:
+
+* History:
+BSRN station 75, doi:10.1594/PANGAEA.808997; BSRN station scientist: Marc Olefs (marc.olefs@zamg.ac.at)
+

@@ -1,0 +1,21 @@
+EUROPEAN CLIMATE ASSESSMENT & DATASET (ECA&D), file created on 22-04-2021
+THESE DATA CAN BE USED FREELY PROVIDED THAT THE FOLLOWING SOURCE IS ACKNOWLEDGED:
+
+Klein Tank, A.M.G. and Coauthors, 2002. Daily dataset of 20th-century surface
+air temperature and precipitation series for the European Climate Assessment.
+Int. J. of Climatol., 22, 1441-1453.
+Data and metadata available at http://www.ecad.eu
+
+
+----------------------------------------------------------------
+480,KASSEL,GERMANY,+51:17:52,+009:26:37,231 m 
+----------------------------------------------------------------
+* Land use:
+
+* Soil type:
+
+* Surface coverage:
+
+* History:
+Name / Begin / End / Latitude / Longitude / Elevation of station (m) / Elevation of Barometer (m) <br>Kassel (West) 19490101-19510430 51°18'56 09°26'56 233.0 <br>Kassel (West) 19510501-19530924 51°18'56 09°26'56 233.0 197.1<br>Kassel (Süd) 19530925-19770719 51°18'31 09°29'01 233.0 163.0<br>Kassel 19770720-present  51°17'52 09°26'37 231.0 232.9<br><br>Measuring times have changed from 20010401 onwards:<br>- Temperature, relative humidity: 0-24 UTC<br>- Cloud cover, windspeed, pressure and sunshine: 0-24 UTC<br>- Precipitation: 6 UTC until 6 UTC next day<br>- Snow cover: at 6 UTC<br><br>Before 20010401:<br>- Temperature extremes: from 21:30 previous day until 21:30 CET<br>- Mean temperature: weighted average of 07:30, 14:30 and twice 21:30 CET<br>- Precipitation: morning today 07:30 CET until morning next day<br>- Cloud cover: average of 07:30, 14:30 and 21:30 CET<br>- Relative humidity: average of 07:30, 14:30 and 21:30 CET<br>- Pressure: average of 07:30, 14:30 and 21:30 CET<br>- Wind speed: average of 24 hourly means<br>- Sunshine: 00-24 CET<br>- Snow cover: at 7:30 CET
+

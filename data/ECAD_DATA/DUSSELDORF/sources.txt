@@ -1,0 +1,37 @@
+EUROPEAN CLIMATE ASSESSMENT & DATASET (ECA&D), file created on 28-03-2021
+THESE DATA CAN BE USED FREELY PROVIDED THAT THE FOLLOWING SOURCE IS ACKNOWLEDGED:
+
+Klein Tank, A.M.G. and Coauthors, 2002. Daily dataset of 20th-century surface
+air temperature and precipitation series for the European Climate Assessment.
+Int. J. of Climatol., 22, 1441-1453.
+Data and metadata available at http://www.ecad.eu
+
+FILE FORMAT (MISSING VALUE CODE IS -9999):
+
+ 01- 05 STAID  : Station identifier
+ 07- 12 SOUID  : Source identifier
+ 14- 53 SOUNAME: Source name
+ 55- 56 CN     : Country code (ISO3116 country codes)
+ 58- 66 LAT    : Latitude in degrees:minutes:seconds (+: North, -: South)
+ 68- 77 LON    : Longitude in degrees:minutes:seconds (+: East, -: West)
+ 79- 82 HGHT   : Station elevation in meters
+ 84- 87 ELEI   : Element identifier (see website at Daily Data > Data dictionary > Elements)
+ 89- 96 BEGIN  : Begin date YYYYMMDD
+ 98-105 END    : End date YYYYMMDD
+107-111 PARID  : Participant identifier
+113-163 PARNAME: Participant name
+
+STAID, SOUID,SOUNAME                                 ,CN,      LAT,       LON,HGHT,ELEI,   BEGIN,     END,PARID,PARNAME
+
+  479,102265,DUSSELDORF                              ,DE,+51:17:50,+006:46:12,  37, CC1,19690701,20210228,   11,National Climate Data Center (DWD)                
+  479,102266,DUSSELDORF                              ,DE,+51:17:50,+006:46:12,  37, HU3,19690701,20210228,   11,National Climate Data Center (DWD)                
+  479,102267,DUSSELDORF                              ,DE,+51:17:50,+006:46:12,  37, PP2,19690701,20180227,   11,National Climate Data Center (DWD)                
+  479,102268,DUSSELDORF                              ,DE,+51:17:50,+006:46:12,  37, RR3,19690701,20210228,   11,National Climate Data Center (DWD)                
+  479,102269,DUSSELDORF                              ,DE,+51:17:50,+006:46:12,  37, SS3,19700101,20210228,   11,National Climate Data Center (DWD)                
+  479,102270,DUSSELDORF                              ,DE,+51:17:50,+006:46:12,  37, TG3,19690701,20210228,   11,National Climate Data Center (DWD)                
+  479,102271,DUSSELDORF                              ,DE,+51:17:50,+006:46:12,  37, TN3,19690701,20210228,   11,National Climate Data Center (DWD)                
+  479,102272,DUSSELDORF                              ,DE,+51:17:50,+006:46:12,  37, TX3,19690701,20210228,   11,National Climate Data Center (DWD)                
+  479,111452,DUSSELDORF                              ,DE,+51:17:50,+006:46:12,  37, SD3,19690701,20190828,   11,National Climate Data Center (DWD)                
+  479,115673,DUSSELDORF                              ,DE,+51:17:50,+006:46:12,  37, FG7,19520101,20210228,   11,National Climate Data Center (DWD)                
+  479,115674,DUSSELDORF                              ,DE,+51:17:50,+006:46:12,  37, FX1,19520101,20210228,   11,National Climate Data Center (DWD)                
+  479,210028,DUSSELDORF                              ,DE,+51:17:50,+006:46:12,  37, QQ6,19700101,20210228,   11,National Climate Data Center (DWD)                

@@ -1,0 +1,43 @@
+EUROPEAN CLIMATE ASSESSMENT & DATASET (ECA&D), file created on 22-04-2021
+THESE DATA CAN BE USED FREELY PROVIDED THAT THE FOLLOWING SOURCE IS ACKNOWLEDGED:
+
+Klein Tank, A.M.G. and Coauthors, 2002. Daily dataset of 20th-century surface
+air temperature and precipitation series for the European Climate Assessment.
+Int. J. of Climatol., 22, 1441-1453.
+Data and metadata available at http://www.ecad.eu
+
+FILE FORMAT (MISSING VALUE CODE IS -9999):
+
+ 01- 05 STAID  : Station identifier
+ 07- 12 SOUID  : Source identifier
+ 14- 53 SOUNAME: Source name
+ 55- 56 CN     : Country code (ISO3116 country codes)
+ 58- 66 LAT    : Latitude in degrees:minutes:seconds (+: North, -: South)
+ 68- 77 LON    : Longitude in degrees:minutes:seconds (+: East, -: West)
+ 79- 82 HGTH   : Station elevation in meters
+ 84- 87 ELEI   : Element identifier (see website at Daily Data > Data dictionary > Elements)
+ 89- 96 BEGIN  : Begin date YYYYMMDD
+ 98-105 END    : End date YYYYMMDD
+107-111 PARID  : Participant identifier
+113-163 PARNAME: Participant name
+
+STAID, SOUID,SOUNAME                                 ,CN,      LAT,       LON,HGHT,ELEI,   BEGIN,     END,PARID,PARNAME
+
+  786,190869,MONTELIMAR                              ,FR,+44:34:52,+004:43:59,  73, QQ5,19940701,20171231,   72,Anatoly V. Tsvetkov                               
+  786,210074,MONTELIMAR                              ,FR,+44:34:52,+004:43:59,  73, QQ6,19490101,20050101,   10,Jean-Michel Soubeyroux                            
+  786,907577,MONTELIMAR                              ,FR,+44:35:00,+004:44:00,  74, QQ1,20160101,20200229,     ,                    
+  786,175639,MONTELIMAR                              ,FR,+44:34:52,+004:43:59,  73,HU13,19200901,20191231,   10,Jean-Michel Soubeyroux                            
+  786,907577,MONTELIMAR                              ,FR,+44:35:00,+004:44:00,  74, HU6,20150501,20200229,     ,                    
+  786,104907,MONTELIMAR                              ,FR,+44:34:52,+004:43:59,  73, TX6,19200817,20191231,   10,Jean-Michel Soubeyroux                            
+  786,907577,MONTELIMAR                              ,FR,+44:35:00,+004:44:00,  74, TX7,19820112,20200229,     ,                    
+  786,106765,MONTELIMAR                              ,FR,+44:34:52,+004:43:59,  73, TG5,19200817,20191231,   10,Jean-Michel Soubeyroux                            
+  786,907577,MONTELIMAR                              ,FR,+44:35:00,+004:44:00,  74, TG5,19820113,20200229,     ,                    
+  786,104908,MONTELIMAR                              ,FR,+44:34:52,+004:43:59,  73, TN2,19200817,20191231,   10,Jean-Michel Soubeyroux                            
+  786,907577,MONTELIMAR                              ,FR,+44:35:00,+004:44:00,  74, TN6,19820113,20200229,     ,                    
+  786,104108,MONTELIMAR                              ,FR,+44:34:52,+004:43:59,  73, RR9,19200817,20191231,   10,Jean-Michel Soubeyroux                            
+  786,907577,MONTELIMAR                              ,FR,+44:35:00,+004:44:00,  74, RR8,19820101,20200229,     ,                    
+  786,175638,MONTELIMAR                              ,FR,+44:34:52,+004:43:59,  73,PP23,19910409,20191231,   10,Jean-Michel Soubeyroux                            
+  786,907577,MONTELIMAR                              ,FR,+44:35:00,+004:44:00,  74,PP11,19800101,20200229,     ,                    
+  786,104906,MONTELIMAR                              ,FR,+44:34:52,+004:43:59,  73, SS1,19490101,20050101,   10,Jean-Michel Soubeyroux                            
+  786,175640,MONTELIMAR                              ,FR,+44:34:52,+004:43:59,  73,FG12,19380101,20191231,   10,Jean-Michel Soubeyroux                            
+  786,907577,MONTELIMAR                              ,FR,+44:35:00,+004:44:00,  74, FG5,19800101,20200229,     ,                    

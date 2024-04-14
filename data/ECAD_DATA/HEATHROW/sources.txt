@@ -1,0 +1,50 @@
+EUROPEAN CLIMATE ASSESSMENT & DATASET (ECA&D), file created on 27-04-2021
+THESE DATA CAN BE USED FREELY PROVIDED THAT THE FOLLOWING SOURCE IS ACKNOWLEDGED:
+
+Klein Tank, A.M.G. and Coauthors, 2002. Daily dataset of 20th-century surface
+air temperature and precipitation series for the European Climate Assessment.
+Int. J. of Climatol., 22, 1441-1453.
+Data and metadata available at http://www.ecad.eu
+
+FILE FORMAT (MISSING VALUE CODE IS -9999):
+
+ 01- 05 STAID  : Station identifier
+ 07- 12 SOUID  : Source identifier
+ 14- 53 SOUNAME: Source name
+ 55- 56 CN     : Country code (ISO3116 country codes)
+ 58- 66 LAT    : Latitude in degrees:minutes:seconds (+: North, -: South)
+ 68- 77 LON    : Longitude in degrees:minutes:seconds (+: East, -: West)
+ 79- 82 HGTH   : Station elevation in meters
+ 84- 87 ELEI   : Element identifier (see website at Daily Data > Data dictionary > Elements)
+ 89- 96 BEGIN  : Begin date YYYYMMDD
+ 98-105 END    : End date YYYYMMDD
+107-111 PARID  : Participant identifier
+113-163 PARNAME: Participant name
+
+STAID, SOUID,SOUNAME                                 ,CN,      LAT,       LON,HGHT,ELEI,   BEGIN,     END,PARID,PARNAME
+
+ 1860,116440,HEATHROW                                ,GB,+51:28:44,-000:26:56,  25,CC10,19600101,20191231,   35,National Climate Information Centre               
+ 1860,903672,NORTHOLT                                ,GB,+51:33:00,-000:25:00,  33, CC7,19800101,20200229,     ,                    
+ 1860,903772,HEATHROW                                ,GB,+51:29:00,-000:27:00,  25, CC7,19800101,20090309,     ,                    
+ 1860,210187,HEATHROW                                ,GB,+51:28:44,-000:26:56,  25, QQ6,19600101,20181231,   35,National Climate Information Centre               
+ 1860,903772,HEATHROW                                ,GB,+51:29:00,-000:27:00,  25, QQ1,20160101,20200229,     ,                    
+ 1860,116438,HEATHROW                                ,GB,+51:28:44,-000:26:56,  25, HU8,19600101,20191231,   35,National Climate Information Centre               
+ 1860,105838,HEATHROW                                ,GB,+51:28:44,-000:26:56,  25, TX9,19600101,20191230,   35,National Climate Information Centre               
+ 1860,903672,NORTHOLT                                ,GB,+51:33:00,-000:25:00,  33, TX7,19820126,20200229,     ,                    
+ 1860,903772,HEATHROW                                ,GB,+51:29:00,-000:27:00,  25, TX7,19820112,20200229,     ,                    
+ 1860,107054,HEATHROW                                ,GB,+51:28:44,-000:26:56,  25, TG5,19600101,20191231,   35,National Climate Information Centre               
+ 1860,903672,NORTHOLT                                ,GB,+51:33:00,-000:25:00,  33, TG5,19820126,20200229,     ,                    
+ 1860,903772,HEATHROW                                ,GB,+51:29:00,-000:27:00,  25, TG5,19820113,20200229,     ,                    
+ 1860,105760,HEATHROW                                ,GB,+51:28:44,-000:26:56,  25, TN9,19600101,20191231,   35,National Climate Information Centre               
+ 1860,903772,HEATHROW                                ,GB,+51:29:00,-000:27:00,  25, TN6,19820113,20200229,     ,                    
+ 1860,107650,HEATHROW                                ,GB,+51:28:44,-000:26:56,  25, RR3,19600101,20191231,   35,National Climate Information Centre               
+ 1860,903672,NORTHOLT                                ,GB,+51:33:00,-000:25:00,  33, RR8,19820126,20200229,     ,                    
+ 1860,903772,HEATHROW                                ,GB,+51:29:00,-000:27:00,  25, RR8,19820101,20200229,     ,                    
+ 1860,116437,HEATHROW                                ,GB,+51:28:44,-000:26:56,  25,PP14,19600101,20191231,   35,National Climate Information Centre               
+ 1860,903672,NORTHOLT                                ,GB,+51:33:00,-000:25:00,  33,PP11,19800101,20200229,     ,                    
+ 1860,903772,HEATHROW                                ,GB,+51:29:00,-000:27:00,  25,PP11,19800101,20200229,     ,                    
+ 1860,116436,HEATHROW                                ,GB,+51:28:44,-000:26:56,  25, SD5,19600101,20181231,   35,National Climate Information Centre               
+ 1860,903672,NORTHOLT                                ,GB,+51:33:00,-000:25:00,  33, SD1,19830301,20200106,     ,                    
+ 1860,903772,HEATHROW                                ,GB,+51:29:00,-000:27:00,  25, SD1,19800101,20190201,     ,                    
+ 1860,116439,HEATHROW                                ,GB,+51:28:44,-000:26:56,  25, SS3,19600101,20191231,   35,National Climate Information Centre               
+ 1860,903772,HEATHROW                                ,GB,+51:29:00,-000:27:00,  25, SS4,20100730,20200229,     ,                    

@@ -1,0 +1,21 @@
+EUROPEAN CLIMATE ASSESSMENT & DATASET (ECA&D), file created on 27-04-2021
+THESE DATA CAN BE USED FREELY PROVIDED THAT THE FOLLOWING SOURCE IS ACKNOWLEDGED:
+
+Klein Tank, A.M.G. and Coauthors, 2002. Daily dataset of 20th-century surface
+air temperature and precipitation series for the European Climate Assessment.
+Int. J. of Climatol., 22, 1441-1453.
+Data and metadata available at http://www.ecad.eu
+
+
+----------------------------------------------------------------
+228,LJUBLJANA BEZIGRAD,SLOVENIA,+46:03:56,+014:30:45,299 m 
+----------------------------------------------------------------
+* Land use:
+Station located in the suburbs of Ljubljana on the backyard of Environmental Agency. It is surrounded by urbanized area.
+* Soil type:
+Soil
+* Surface coverage:
+Grass
+* History:
+
+

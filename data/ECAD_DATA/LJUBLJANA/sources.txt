@@ -1,0 +1,48 @@
+EUROPEAN CLIMATE ASSESSMENT & DATASET (ECA&D), file created on 27-04-2021
+THESE DATA CAN BE USED FREELY PROVIDED THAT THE FOLLOWING SOURCE IS ACKNOWLEDGED:
+
+Klein Tank, A.M.G. and Coauthors, 2002. Daily dataset of 20th-century surface
+air temperature and precipitation series for the European Climate Assessment.
+Int. J. of Climatol., 22, 1441-1453.
+Data and metadata available at http://www.ecad.eu
+
+FILE FORMAT (MISSING VALUE CODE IS -9999):
+
+ 01- 05 STAID  : Station identifier
+ 07- 12 SOUID  : Source identifier
+ 14- 53 SOUNAME: Source name
+ 55- 56 CN     : Country code (ISO3116 country codes)
+ 58- 66 LAT    : Latitude in degrees:minutes:seconds (+: North, -: South)
+ 68- 77 LON    : Longitude in degrees:minutes:seconds (+: East, -: West)
+ 79- 82 HGTH   : Station elevation in meters
+ 84- 87 ELEI   : Element identifier (see website at Daily Data > Data dictionary > Elements)
+ 89- 96 BEGIN  : Begin date YYYYMMDD
+ 98-105 END    : End date YYYYMMDD
+107-111 PARID  : Participant identifier
+113-163 PARNAME: Participant name
+
+STAID, SOUID,SOUNAME                                 ,CN,      LAT,       LON,HGHT,ELEI,   BEGIN,     END,PARID,PARNAME
+
+  228,105699,LJUBLJANA BEZIGRAD                      ,SI,+46:03:56,+014:30:45, 299, CC4,19000101,20210331,   30,Tanja Cegnar                                      
+  228,914015,LJUBLJANA/BEZIGRAD                      ,SI,+46:04:00,+014:31:00, 298, CC7,19960415,20200229,     ,                    
+  228,191088,LJUBLJANA BEZIGRAD                      ,SI,+46:03:56,+014:30:45, 299, QQ5,19640101,19911231,   72,Anatoly V. Tsvetkov                               
+  228,198139,LJUBLJANA BEZIGRAD                      ,SI,+46:03:56,+014:30:45, 299, QQ2,19930617,20210228,   30,Tanja Cegnar                                      
+  228,209935,LJUBLJANA BEZIGRAD                      ,SI,+46:03:56,+014:30:45, 299, QQ6,19480101,20210331,   30,Tanja Cegnar                                      
+  228,105698,LJUBLJANA BEZIGRAD                      ,SI,+46:03:56,+014:30:45, 299, HU7,19000101,20210331,   30,Tanja Cegnar                                      
+  228,914015,LJUBLJANA/BEZIGRAD                      ,SI,+46:04:00,+014:31:00, 298, HU6,19960423,20200229,     ,                    
+  228,105697,LJUBLJANA BEZIGRAD                      ,SI,+46:03:56,+014:30:45, 299, TX8,19000101,20210331,   30,Tanja Cegnar                                      
+  228,914015,LJUBLJANA/BEZIGRAD                      ,SI,+46:04:00,+014:31:00, 298, TX7,19960415,20200229,     ,                    
+  228,100705,LJUBLJANA BEZIGRAD                      ,SI,+46:03:56,+014:30:45, 299, TG8,19000101,20210331,   30,Tanja Cegnar                                      
+  228,914015,LJUBLJANA/BEZIGRAD                      ,SI,+46:04:00,+014:31:00, 298, TG5,19960416,20200223,     ,                    
+  228,105696,LJUBLJANA BEZIGRAD                      ,SI,+46:03:56,+014:30:45, 299, TN8,19000101,20210331,   30,Tanja Cegnar                                      
+  228,914015,LJUBLJANA/BEZIGRAD                      ,SI,+46:04:00,+014:31:00, 298, TN6,19960416,20200223,     ,                    
+  228,100706,LJUBLJANA BEZIGRAD                      ,SI,+46:03:56,+014:30:45, 299, RR2,18991231,20210330,   30,Tanja Cegnar                                      
+  228,914015,LJUBLJANA/BEZIGRAD                      ,SI,+46:04:00,+014:31:00, 298, RR8,19960415,20200229,     ,                    
+  228,115554,LJUBLJANA BEZIGRAD                      ,SI,+46:03:56,+014:30:45, 299, PP9,19610101,20210331,   30,Tanja Cegnar                                      
+  228,914015,LJUBLJANA/BEZIGRAD                      ,SI,+46:04:00,+014:31:00, 298,PP11,19960415,20200229,     ,                    
+  228,115552,LJUBLJANA BEZIGRAD                      ,SI,+46:03:56,+014:30:45, 299, SD3,19610101,20201230,   30,Tanja Cegnar                                      
+  228,914015,LJUBLJANA/BEZIGRAD                      ,SI,+46:04:00,+014:31:00, 298, SD1,19960416,20200229,     ,                    
+  228,105934,LJUBLJANA BEZIGRAD                      ,SI,+46:03:56,+014:30:45, 299, SS5,19480101,20210331,   30,Tanja Cegnar                                      
+  228,914015,LJUBLJANA/BEZIGRAD                      ,SI,+46:04:00,+014:31:00, 298, SS4,20050122,20200229,     ,                    
+  228,115553,LJUBLJANA BEZIGRAD                      ,SI,+46:03:56,+014:30:45, 299, FG4,19610101,20210331,   30,Tanja Cegnar                                      
+  228,914015,LJUBLJANA/BEZIGRAD                      ,SI,+46:04:00,+014:31:00, 298, FG5,19960415,20200229,     ,                    

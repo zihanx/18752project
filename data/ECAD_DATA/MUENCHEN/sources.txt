@@ -1,0 +1,169 @@
+EUROPEAN CLIMATE ASSESSMENT & DATASET (ECA&D), file created on 26-04-2021
+THESE DATA CAN BE USED FREELY PROVIDED THAT THE FOLLOWING SOURCE IS ACKNOWLEDGED:
+
+Klein Tank, A.M.G. and Coauthors, 2002. Daily dataset of 20th-century surface
+air temperature and precipitation series for the European Climate Assessment.
+Int. J. of Climatol., 22, 1441-1453.
+Data and metadata available at http://www.ecad.eu
+
+FILE FORMAT (MISSING VALUE CODE IS -9999):
+
+ 01- 05 STAID  : Station identifier
+ 07- 12 SOUID  : Source identifier
+ 14- 53 SOUNAME: Source name
+ 55- 56 CN     : Country code (ISO3116 country codes)
+ 58- 66 LAT    : Latitude in degrees:minutes:seconds (+: North, -: South)
+ 68- 77 LON    : Longitude in degrees:minutes:seconds (+: East, -: West)
+ 79- 82 HGTH   : Station elevation in meters
+ 84- 87 ELEI   : Element identifier (see website at Daily Data > Data dictionary > Elements)
+ 89- 96 BEGIN  : Begin date YYYYMMDD
+ 98-105 END    : End date YYYYMMDD
+107-111 PARID  : Participant identifier
+113-163 PARNAME: Participant name
+
+STAID, SOUID,SOUNAME                                 ,CN,      LAT,       LON,HGHT,ELEI,   BEGIN,     END,PARID,PARNAME
+
+   52,115782,MUENCHEN                                ,DE,+48:09:51,+011:32:39, 515, CC1,19850101,20210331,   11,National Climate Data Center (DWD)                
+   52,126259,MUNCHEN-BOGENHAUSEN                     ,DE,+48:08:42,+011:36:05, 521, CC1,19451101,19531231,   11,National Climate Data Center (DWD)                
+   52,126271,MUNCHEN-BOTANISCHER GARTEN              ,DE,+48:09:52,+011:30:12, 515, CC1,18790101,19541231,   11,National Climate Data Center (DWD)                
+   52,126283,MUNCHEN-NYMPHENBURG                     ,DE,+48:10:01,+011:30:09, 515, CC1,19550101,19990331,   11,National Climate Data Center (DWD)                
+   52,910865,MUENCHEN-STADT                          ,DE,+48:10:00,+011:33:00, 526, CC7,20040101,20200229,     ,                    
+ 4431,115782,MUENCHEN                                ,DE,+48:09:51,+011:32:39, 515, CC1,19850101,20210331,   11,National Climate Data Center (DWD)                
+ 4431,126259,MUNCHEN-BOGENHAUSEN                     ,DE,+48:08:42,+011:36:05, 521, CC1,19451101,19531231,   11,National Climate Data Center (DWD)                
+ 4431,126271,MUNCHEN-BOTANISCHER GARTEN              ,DE,+48:09:52,+011:30:12, 515, CC1,18790101,19541231,   11,National Climate Data Center (DWD)                
+ 4431,126283,MUNCHEN-NYMPHENBURG                     ,DE,+48:10:01,+011:30:09, 515, CC1,19550101,19990331,   11,National Climate Data Center (DWD)                
+ 4431,126307,MUNCHEN-RIEM                            ,DE,+48:08:16,+011:42:39, 529, CC1,19400101,19920516,   11,National Climate Data Center (DWD)                
+ 4431,910865,MUENCHEN-STADT                          ,DE,+48:10:00,+011:33:00, 526, CC7,20040101,20200229,     ,                    
+ 4432,115782,MUENCHEN                                ,DE,+48:09:51,+011:32:39, 515, CC1,19850101,20210331,   11,National Climate Data Center (DWD)                
+ 4432,126259,MUNCHEN-BOGENHAUSEN                     ,DE,+48:08:42,+011:36:05, 521, CC1,19451101,19531231,   11,National Climate Data Center (DWD)                
+ 4432,126271,MUNCHEN-BOTANISCHER GARTEN              ,DE,+48:09:52,+011:30:12, 515, CC1,18790101,19541231,   11,National Climate Data Center (DWD)                
+ 4432,126283,MUNCHEN-NYMPHENBURG                     ,DE,+48:10:01,+011:30:09, 515, CC1,19550101,19990331,   11,National Climate Data Center (DWD)                
+ 4432,910865,MUENCHEN-STADT                          ,DE,+48:10:00,+011:33:00, 526, CC7,20040101,20200229,     ,                    
+ 4433,115782,MUENCHEN                                ,DE,+48:09:51,+011:32:39, 515, CC1,19850101,20210331,   11,National Climate Data Center (DWD)                
+ 4433,126259,MUNCHEN-BOGENHAUSEN                     ,DE,+48:08:42,+011:36:05, 521, CC1,19451101,19531231,   11,National Climate Data Center (DWD)                
+ 4433,126271,MUNCHEN-BOTANISCHER GARTEN              ,DE,+48:09:52,+011:30:12, 515, CC1,18790101,19541231,   11,National Climate Data Center (DWD)                
+ 4433,126283,MUNCHEN-NYMPHENBURG                     ,DE,+48:10:01,+011:30:09, 515, CC1,19550101,19990331,   11,National Climate Data Center (DWD)                
+ 4433,910865,MUENCHEN-STADT                          ,DE,+48:10:00,+011:33:00, 526, CC7,20040101,20200229,     ,                    
+   52,209899,MUENCHEN                                ,DE,+48:09:51,+011:32:39, 515, QQ6,19550401,20210331,   11,National Climate Data Center (DWD)                
+   52,210687,MUNCHEN-BOGENHAUSEN                     ,DE,+48:08:42,+011:36:05, 521, QQ6,19460701,19531231,   11,National Climate Data Center (DWD)                
+   52,210688,MUNCHEN-BOTANISCHER GARTEN              ,DE,+48:09:52,+011:30:12, 515, QQ6,19360102,19540930,   11,National Climate Data Center (DWD)                
+   52,210689,MUNCHEN-NYMPHENBURG                     ,DE,+48:10:01,+011:30:09, 515, QQ6,19550101,19980831,   11,National Climate Data Center (DWD)                
+ 4431,209899,MUENCHEN                                ,DE,+48:09:51,+011:32:39, 515, QQ6,19550401,20210331,   11,National Climate Data Center (DWD)                
+ 4431,210687,MUNCHEN-BOGENHAUSEN                     ,DE,+48:08:42,+011:36:05, 521, QQ6,19460701,19531231,   11,National Climate Data Center (DWD)                
+ 4431,210688,MUNCHEN-BOTANISCHER GARTEN              ,DE,+48:09:52,+011:30:12, 515, QQ6,19360102,19540930,   11,National Climate Data Center (DWD)                
+ 4431,210689,MUNCHEN-NYMPHENBURG                     ,DE,+48:10:01,+011:30:09, 515, QQ6,19550101,19980831,   11,National Climate Data Center (DWD)                
+ 4431,210690,MUNCHEN-RIEM                            ,DE,+48:08:16,+011:42:39, 529, QQ6,19400101,19920516,   11,National Climate Data Center (DWD)                
+ 4432,209899,MUENCHEN                                ,DE,+48:09:51,+011:32:39, 515, QQ6,19550401,20210331,   11,National Climate Data Center (DWD)                
+ 4432,210687,MUNCHEN-BOGENHAUSEN                     ,DE,+48:08:42,+011:36:05, 521, QQ6,19460701,19531231,   11,National Climate Data Center (DWD)                
+ 4432,210688,MUNCHEN-BOTANISCHER GARTEN              ,DE,+48:09:52,+011:30:12, 515, QQ6,19360102,19540930,   11,National Climate Data Center (DWD)                
+ 4432,210689,MUNCHEN-NYMPHENBURG                     ,DE,+48:10:01,+011:30:09, 515, QQ6,19550101,19980831,   11,National Climate Data Center (DWD)                
+ 4433,209899,MUENCHEN                                ,DE,+48:09:51,+011:32:39, 515, QQ6,19550401,20210331,   11,National Climate Data Center (DWD)                
+ 4433,210687,MUNCHEN-BOGENHAUSEN                     ,DE,+48:08:42,+011:36:05, 521, QQ6,19460701,19531231,   11,National Climate Data Center (DWD)                
+ 4433,210688,MUNCHEN-BOTANISCHER GARTEN              ,DE,+48:09:52,+011:30:12, 515, QQ6,19360102,19540930,   11,National Climate Data Center (DWD)                
+ 4433,210689,MUNCHEN-NYMPHENBURG                     ,DE,+48:10:01,+011:30:09, 515, QQ6,19550101,19980831,   11,National Climate Data Center (DWD)                
+   52,115785,MUENCHEN                                ,DE,+48:09:51,+011:32:39, 515, HU3,19850101,20210331,   11,National Climate Data Center (DWD)                
+   52,126267,MUNCHEN-BOGENHAUSEN                     ,DE,+48:08:42,+011:36:05, 521, HU3,19451101,19531231,   11,National Climate Data Center (DWD)                
+   52,126279,MUNCHEN-BOTANISCHER GARTEN              ,DE,+48:09:52,+011:30:12, 515, HU3,18790101,19451031,   11,National Climate Data Center (DWD)                
+   52,126291,MUNCHEN-NYMPHENBURG                     ,DE,+48:10:01,+011:30:09, 515, HU3,19550101,19990331,   11,National Climate Data Center (DWD)                
+   52,910865,MUENCHEN-STADT                          ,DE,+48:10:00,+011:33:00, 526, HU6,20150501,20200229,     ,                    
+ 4431,115785,MUENCHEN                                ,DE,+48:09:51,+011:32:39, 515, HU3,19850101,20210331,   11,National Climate Data Center (DWD)                
+ 4431,126267,MUNCHEN-BOGENHAUSEN                     ,DE,+48:08:42,+011:36:05, 521, HU3,19451101,19531231,   11,National Climate Data Center (DWD)                
+ 4431,126279,MUNCHEN-BOTANISCHER GARTEN              ,DE,+48:09:52,+011:30:12, 515, HU3,18790101,19451031,   11,National Climate Data Center (DWD)                
+ 4431,126291,MUNCHEN-NYMPHENBURG                     ,DE,+48:10:01,+011:30:09, 515, HU3,19550101,19990331,   11,National Climate Data Center (DWD)                
+ 4431,126315,MUNCHEN-RIEM                            ,DE,+48:08:16,+011:42:39, 529, HU3,19400101,19920516,   11,National Climate Data Center (DWD)                
+ 4431,910865,MUENCHEN-STADT                          ,DE,+48:10:00,+011:33:00, 526, HU6,20150501,20200229,     ,                    
+ 4432,115785,MUENCHEN                                ,DE,+48:09:51,+011:32:39, 515, HU3,19850101,20210331,   11,National Climate Data Center (DWD)                
+ 4432,126267,MUNCHEN-BOGENHAUSEN                     ,DE,+48:08:42,+011:36:05, 521, HU3,19451101,19531231,   11,National Climate Data Center (DWD)                
+ 4432,126279,MUNCHEN-BOTANISCHER GARTEN              ,DE,+48:09:52,+011:30:12, 515, HU3,18790101,19451031,   11,National Climate Data Center (DWD)                
+ 4432,126291,MUNCHEN-NYMPHENBURG                     ,DE,+48:10:01,+011:30:09, 515, HU3,19550101,19990331,   11,National Climate Data Center (DWD)                
+ 4432,910865,MUENCHEN-STADT                          ,DE,+48:10:00,+011:33:00, 526, HU6,20150501,20200229,     ,                    
+ 4433,115785,MUENCHEN                                ,DE,+48:09:51,+011:32:39, 515, HU3,19850101,20210331,   11,National Climate Data Center (DWD)                
+ 4433,126267,MUNCHEN-BOGENHAUSEN                     ,DE,+48:08:42,+011:36:05, 521, HU3,19451101,19531231,   11,National Climate Data Center (DWD)                
+ 4433,126279,MUNCHEN-BOTANISCHER GARTEN              ,DE,+48:09:52,+011:30:12, 515, HU3,18790101,19451031,   11,National Climate Data Center (DWD)                
+ 4433,126291,MUNCHEN-NYMPHENBURG                     ,DE,+48:10:01,+011:30:09, 515, HU3,19550101,19990331,   11,National Climate Data Center (DWD)                
+ 4433,910865,MUENCHEN-STADT                          ,DE,+48:10:00,+011:33:00, 526, HU6,20150501,20200229,     ,                    
+   52,100188,MUENCHEN                                ,DE,+48:09:51,+011:32:39, 515, TX3,19540601,20210331,   11,National Climate Data Center (DWD)                
+   52,126266,MUNCHEN-BOGENHAUSEN                     ,DE,+48:08:42,+011:36:05, 521, TX3,19451101,19531231,   11,National Climate Data Center (DWD)                
+   52,126278,MUNCHEN-BOTANISCHER GARTEN              ,DE,+48:09:52,+011:30:12, 515, TX3,18790101,19541231,   11,National Climate Data Center (DWD)                
+ 4431,100188,MUENCHEN                                ,DE,+48:09:51,+011:32:39, 515, TX3,19540601,20210331,   11,National Climate Data Center (DWD)                
+ 4431,126266,MUNCHEN-BOGENHAUSEN                     ,DE,+48:08:42,+011:36:05, 521, TX3,19451101,19531231,   11,National Climate Data Center (DWD)                
+ 4431,126278,MUNCHEN-BOTANISCHER GARTEN              ,DE,+48:09:52,+011:30:12, 515, TX3,18790101,19541231,   11,National Climate Data Center (DWD)                
+ 4431,126314,MUNCHEN-RIEM                            ,DE,+48:08:16,+011:42:39, 529, TX3,19400101,19920516,   11,National Climate Data Center (DWD)                
+ 4432,100188,MUENCHEN                                ,DE,+48:09:51,+011:32:39, 515, TX3,19540601,20210331,   11,National Climate Data Center (DWD)                
+ 4432,126266,MUNCHEN-BOGENHAUSEN                     ,DE,+48:08:42,+011:36:05, 521, TX3,19451101,19531231,   11,National Climate Data Center (DWD)                
+ 4432,126278,MUNCHEN-BOTANISCHER GARTEN              ,DE,+48:09:52,+011:30:12, 515, TX3,18790101,19541231,   11,National Climate Data Center (DWD)                
+ 4432,126290,MUNCHEN-NYMPHENBURG                     ,DE,+48:10:01,+011:30:09, 515, TX3,19550101,19990331,   11,National Climate Data Center (DWD)                
+ 4433,100188,MUENCHEN                                ,DE,+48:09:51,+011:32:39, 515, TX3,19540601,20210331,   11,National Climate Data Center (DWD)                
+ 4433,126266,MUNCHEN-BOGENHAUSEN                     ,DE,+48:08:42,+011:36:05, 521, TX3,19451101,19531231,   11,National Climate Data Center (DWD)                
+ 4433,126278,MUNCHEN-BOTANISCHER GARTEN              ,DE,+48:09:52,+011:30:12, 515, TX3,18790101,19541231,   11,National Climate Data Center (DWD)                
+ 4433,126290,MUNCHEN-NYMPHENBURG                     ,DE,+48:10:01,+011:30:09, 515, TX3,19550101,19990331,   11,National Climate Data Center (DWD)                
+   52,100187,MUENCHEN                                ,DE,+48:09:51,+011:32:39, 515, TG3,19540601,20210331,   11,National Climate Data Center (DWD)                
+   52,126264,MUNCHEN-BOGENHAUSEN                     ,DE,+48:08:42,+011:36:05, 521, TG3,19451101,19531231,   11,National Climate Data Center (DWD)                
+   52,126276,MUNCHEN-BOTANISCHER GARTEN              ,DE,+48:09:52,+011:30:12, 515, TG3,18790101,19541231,   11,National Climate Data Center (DWD)                
+   52,126288,MUNCHEN-NYMPHENBURG                     ,DE,+48:10:01,+011:30:09, 515, TG3,19550101,19990331,   11,National Climate Data Center (DWD)                
+ 4431,100187,MUENCHEN                                ,DE,+48:09:51,+011:32:39, 515, TG3,19540601,20210331,   11,National Climate Data Center (DWD)                
+ 4431,126264,MUNCHEN-BOGENHAUSEN                     ,DE,+48:08:42,+011:36:05, 521, TG3,19451101,19531231,   11,National Climate Data Center (DWD)                
+ 4431,126276,MUNCHEN-BOTANISCHER GARTEN              ,DE,+48:09:52,+011:30:12, 515, TG3,18790101,19541231,   11,National Climate Data Center (DWD)                
+ 4431,126288,MUNCHEN-NYMPHENBURG                     ,DE,+48:10:01,+011:30:09, 515, TG3,19550101,19990331,   11,National Climate Data Center (DWD)                
+ 4431,126312,MUNCHEN-RIEM                            ,DE,+48:08:16,+011:42:39, 529, TG3,19400101,19920516,   11,National Climate Data Center (DWD)                
+ 4432,100187,MUENCHEN                                ,DE,+48:09:51,+011:32:39, 515, TG3,19540601,20210331,   11,National Climate Data Center (DWD)                
+ 4432,126264,MUNCHEN-BOGENHAUSEN                     ,DE,+48:08:42,+011:36:05, 521, TG3,19451101,19531231,   11,National Climate Data Center (DWD)                
+ 4432,126276,MUNCHEN-BOTANISCHER GARTEN              ,DE,+48:09:52,+011:30:12, 515, TG3,18790101,19541231,   11,National Climate Data Center (DWD)                
+ 4432,126288,MUNCHEN-NYMPHENBURG                     ,DE,+48:10:01,+011:30:09, 515, TG3,19550101,19990331,   11,National Climate Data Center (DWD)                
+ 4433,100187,MUENCHEN                                ,DE,+48:09:51,+011:32:39, 515, TG3,19540601,20210331,   11,National Climate Data Center (DWD)                
+ 4433,126264,MUNCHEN-BOGENHAUSEN                     ,DE,+48:08:42,+011:36:05, 521, TG3,19451101,19531231,   11,National Climate Data Center (DWD)                
+ 4433,126276,MUNCHEN-BOTANISCHER GARTEN              ,DE,+48:09:52,+011:30:12, 515, TG3,18790101,19541231,   11,National Climate Data Center (DWD)                
+ 4433,126288,MUNCHEN-NYMPHENBURG                     ,DE,+48:10:01,+011:30:09, 515, TG3,19550101,19990331,   11,National Climate Data Center (DWD)                
+   52,100186,MUENCHEN                                ,DE,+48:09:51,+011:32:39, 515, TN3,19540601,20210331,   11,National Climate Data Center (DWD)                
+   52,126265,MUNCHEN-BOGENHAUSEN                     ,DE,+48:08:42,+011:36:05, 521, TN3,19451101,19531231,   11,National Climate Data Center (DWD)                
+   52,126277,MUNCHEN-BOTANISCHER GARTEN              ,DE,+48:09:52,+011:30:12, 515, TN3,18790101,19541231,   11,National Climate Data Center (DWD)                
+   52,126289,MUNCHEN-NYMPHENBURG                     ,DE,+48:10:01,+011:30:09, 515, TN3,19550101,19990331,   11,National Climate Data Center (DWD)                
+ 4431,100186,MUENCHEN                                ,DE,+48:09:51,+011:32:39, 515, TN3,19540601,20210331,   11,National Climate Data Center (DWD)                
+ 4431,126265,MUNCHEN-BOGENHAUSEN                     ,DE,+48:08:42,+011:36:05, 521, TN3,19451101,19531231,   11,National Climate Data Center (DWD)                
+ 4431,126277,MUNCHEN-BOTANISCHER GARTEN              ,DE,+48:09:52,+011:30:12, 515, TN3,18790101,19541231,   11,National Climate Data Center (DWD)                
+ 4431,126289,MUNCHEN-NYMPHENBURG                     ,DE,+48:10:01,+011:30:09, 515, TN3,19550101,19990331,   11,National Climate Data Center (DWD)                
+ 4431,126313,MUNCHEN-RIEM                            ,DE,+48:08:16,+011:42:39, 529, TN3,19400101,19920516,   11,National Climate Data Center (DWD)                
+ 4432,100186,MUENCHEN                                ,DE,+48:09:51,+011:32:39, 515, TN3,19540601,20210331,   11,National Climate Data Center (DWD)                
+ 4432,126265,MUNCHEN-BOGENHAUSEN                     ,DE,+48:08:42,+011:36:05, 521, TN3,19451101,19531231,   11,National Climate Data Center (DWD)                
+ 4432,126277,MUNCHEN-BOTANISCHER GARTEN              ,DE,+48:09:52,+011:30:12, 515, TN3,18790101,19541231,   11,National Climate Data Center (DWD)                
+ 4432,126289,MUNCHEN-NYMPHENBURG                     ,DE,+48:10:01,+011:30:09, 515, TN3,19550101,19990331,   11,National Climate Data Center (DWD)                
+ 4433,100186,MUENCHEN                                ,DE,+48:09:51,+011:32:39, 515, TN3,19540601,20210331,   11,National Climate Data Center (DWD)                
+ 4433,126265,MUNCHEN-BOGENHAUSEN                     ,DE,+48:08:42,+011:36:05, 521, TN3,19451101,19531231,   11,National Climate Data Center (DWD)                
+ 4433,126277,MUNCHEN-BOTANISCHER GARTEN              ,DE,+48:09:52,+011:30:12, 515, TN3,18790101,19541231,   11,National Climate Data Center (DWD)                
+ 4433,126289,MUNCHEN-NYMPHENBURG                     ,DE,+48:10:01,+011:30:09, 515, TN3,19550101,19990331,   11,National Climate Data Center (DWD)                
+   52,100189,MUENCHEN                                ,DE,+48:09:51,+011:32:39, 515, RR3,19540601,20210331,   11,National Climate Data Center (DWD)                
+   52,126274,MUNCHEN-BOTANISCHER GARTEN              ,DE,+48:09:52,+011:30:12, 515, RR3,18790101,19541230,   11,National Climate Data Center (DWD)                
+ 4431,100189,MUENCHEN                                ,DE,+48:09:51,+011:32:39, 515, RR3,19540601,20210331,   11,National Climate Data Center (DWD)                
+ 4431,126262,MUNCHEN-BOGENHAUSEN                     ,DE,+48:08:42,+011:36:05, 521, RR3,19451106,19531231,   11,National Climate Data Center (DWD)                
+ 4431,126274,MUNCHEN-BOTANISCHER GARTEN              ,DE,+48:09:52,+011:30:12, 515, RR3,18790101,19541230,   11,National Climate Data Center (DWD)                
+ 4432,100189,MUENCHEN                                ,DE,+48:09:51,+011:32:39, 515, RR3,19540601,20210331,   11,National Climate Data Center (DWD)                
+ 4432,126274,MUNCHEN-BOTANISCHER GARTEN              ,DE,+48:09:52,+011:30:12, 515, RR3,18790101,19541230,   11,National Climate Data Center (DWD)                
+ 4432,126286,MUNCHEN-NYMPHENBURG                     ,DE,+48:10:01,+011:30:09, 515, RR3,19550101,19990331,   11,National Climate Data Center (DWD)                
+ 4433,100189,MUENCHEN                                ,DE,+48:09:51,+011:32:39, 515, RR3,19540601,20210331,   11,National Climate Data Center (DWD)                
+ 4433,126274,MUNCHEN-BOTANISCHER GARTEN              ,DE,+48:09:52,+011:30:12, 515, RR3,18790101,19541230,   11,National Climate Data Center (DWD)                
+ 4433,126286,MUNCHEN-NYMPHENBURG                     ,DE,+48:10:01,+011:30:09, 515, RR3,19550101,19990331,   11,National Climate Data Center (DWD)                
+   52,100190,MUENCHEN                                ,DE,+48:09:51,+011:32:39, 515, PP2,19790101,20180227,   11,National Climate Data Center (DWD)                
+   52,910865,MUENCHEN-STADT                          ,DE,+48:10:00,+011:33:00, 526,PP11,20040101,20200229,     ,                    
+   52,115784,MUENCHEN                                ,DE,+48:09:51,+011:32:39, 515, SD3,19540601,20190430,   11,National Climate Data Center (DWD)                
+   52,910865,MUENCHEN-STADT                          ,DE,+48:10:00,+011:33:00, 526, SD1,20040101,20200229,     ,                    
+   52,115783,MUENCHEN                                ,DE,+48:09:51,+011:32:39, 515, SS3,19550401,20210331,   11,National Climate Data Center (DWD)                
+   52,126260,MUNCHEN-BOGENHAUSEN                     ,DE,+48:08:42,+011:36:05, 521, SS3,19460701,19531231,   11,National Climate Data Center (DWD)                
+   52,126272,MUNCHEN-BOTANISCHER GARTEN              ,DE,+48:09:52,+011:30:12, 515, SS3,19360102,19540930,   11,National Climate Data Center (DWD)                
+   52,126284,MUNCHEN-NYMPHENBURG                     ,DE,+48:10:01,+011:30:09, 515, SS3,19550101,19980831,   11,National Climate Data Center (DWD)                
+ 4431,115783,MUENCHEN                                ,DE,+48:09:51,+011:32:39, 515, SS3,19550401,20210331,   11,National Climate Data Center (DWD)                
+ 4431,126260,MUNCHEN-BOGENHAUSEN                     ,DE,+48:08:42,+011:36:05, 521, SS3,19460701,19531231,   11,National Climate Data Center (DWD)                
+ 4431,126272,MUNCHEN-BOTANISCHER GARTEN              ,DE,+48:09:52,+011:30:12, 515, SS3,19360102,19540930,   11,National Climate Data Center (DWD)                
+ 4431,126284,MUNCHEN-NYMPHENBURG                     ,DE,+48:10:01,+011:30:09, 515, SS3,19550101,19980831,   11,National Climate Data Center (DWD)                
+ 4431,126308,MUNCHEN-RIEM                            ,DE,+48:08:16,+011:42:39, 529, SS3,19400101,19920516,   11,National Climate Data Center (DWD)                
+ 4432,115783,MUENCHEN                                ,DE,+48:09:51,+011:32:39, 515, SS3,19550401,20210331,   11,National Climate Data Center (DWD)                
+ 4432,126260,MUNCHEN-BOGENHAUSEN                     ,DE,+48:08:42,+011:36:05, 521, SS3,19460701,19531231,   11,National Climate Data Center (DWD)                
+ 4432,126272,MUNCHEN-BOTANISCHER GARTEN              ,DE,+48:09:52,+011:30:12, 515, SS3,19360102,19540930,   11,National Climate Data Center (DWD)                
+ 4432,126284,MUNCHEN-NYMPHENBURG                     ,DE,+48:10:01,+011:30:09, 515, SS3,19550101,19980831,   11,National Climate Data Center (DWD)                
+ 4433,115783,MUENCHEN                                ,DE,+48:09:51,+011:32:39, 515, SS3,19550401,20210331,   11,National Climate Data Center (DWD)                
+ 4433,126260,MUNCHEN-BOGENHAUSEN                     ,DE,+48:08:42,+011:36:05, 521, SS3,19460701,19531231,   11,National Climate Data Center (DWD)                
+ 4433,126272,MUNCHEN-BOTANISCHER GARTEN              ,DE,+48:09:52,+011:30:12, 515, SS3,19360102,19540930,   11,National Climate Data Center (DWD)                
+ 4433,126284,MUNCHEN-NYMPHENBURG                     ,DE,+48:10:01,+011:30:09, 515, SS3,19550101,19980831,   11,National Climate Data Center (DWD)                
+   52,115787,MUENCHEN                                ,DE,+48:09:51,+011:32:39, 515, FX1,19850101,20210331,   11,National Climate Data Center (DWD)                
+   52,910865,MUENCHEN-STADT                          ,DE,+48:10:00,+011:33:00, 526, FX4,20040101,20200229,     ,                    
+   52,115786,MUENCHEN                                ,DE,+48:09:51,+011:32:39, 515, FG7,19850101,20210331,   11,National Climate Data Center (DWD)                
+   52,910865,MUENCHEN-STADT                          ,DE,+48:10:00,+011:33:00, 526, FG5,20040101,20190923,     ,                    

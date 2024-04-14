@@ -1,0 +1,21 @@
+EUROPEAN CLIMATE ASSESSMENT & DATASET (ECA&D), file created on 28-03-2021
+THESE DATA CAN BE USED FREELY PROVIDED THAT THE FOLLOWING SOURCE IS ACKNOWLEDGED:
+
+Klein Tank, A.M.G. and Coauthors, 2002. Daily dataset of 20th-century surface
+air temperature and precipitation series for the European Climate Assessment.
+Int. J. of Climatol., 22, 1441-1453.
+Data and metadata available at http://www.ecad.eu
+
+
+----------------------------------------------------------------
+479,DUSSELDORF,GERMANY,+51:17:50,+006:46:12,37 m 
+----------------------------------------------------------------
+* Land use:
+
+* Soil type:
+
+* Surface coverage:
+
+* History:
+Name / Begin / End / Latitude / Longitude / Elevation of station (m) / Elevation of Barometer (m) <br>Dusseldorf 19490423-19491130 51°16'44 06°46'00 36.0 47.3<br>Dusseldorf 19491201-19600630 51°16'44 06°46'00 36.0 37.8<br>Dusseldorf 19600701-19660427 51°16'49 06°45'34 36.0 37.0<br>Dusseldorf 19660428-19921005 51°17'25 06°46'54 37.0 44.0<br>Dusseldorf 19921006-present  51°17'50 06°46'12 37.0 40.6<br><br>Measuring times have changed from 20010401 onwards:<br>- Temperature, relative humidity: 0-24 UTC<br>- Cloud cover, windspeed, pressure and sunshine: 0-24 UTC<br>- Precipitation: 6 UTC until 6 UTC next day<br>- Snow cover: at 6 UTC<br><br>Before 20010401:<br>- Temperature extremes: from 21:30 previous day until 21:30 CET<br>- Mean temperature: weighted average of 07:30, 14:30 and twice 21:30 CET<br>- Precipitation: morning today 07:30 CET until morning next day<br>- Cloud cover: average of 07:30, 14:30 and 21:30 CET<br>- Relative humidity: average of 07:30, 14:30 and 21:30 CET<br>- Pressure: average of 07:30, 14:30 and 21:30 CET<br>- Wind speed: average of 24 hourly means<br>- Sunshine: 00-24 CET<br>- Snow cover: at 7:30 CET
+

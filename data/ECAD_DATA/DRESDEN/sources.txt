@@ -1,0 +1,77 @@
+EUROPEAN CLIMATE ASSESSMENT & DATASET (ECA&D), file created on 22-04-2021
+THESE DATA CAN BE USED FREELY PROVIDED THAT THE FOLLOWING SOURCE IS ACKNOWLEDGED:
+
+Klein Tank, A.M.G. and Coauthors, 2002. Daily dataset of 20th-century surface
+air temperature and precipitation series for the European Climate Assessment.
+Int. J. of Climatol., 22, 1441-1453.
+Data and metadata available at http://www.ecad.eu
+
+FILE FORMAT (MISSING VALUE CODE IS -9999):
+
+ 01- 05 STAID  : Station identifier
+ 07- 12 SOUID  : Source identifier
+ 14- 53 SOUNAME: Source name
+ 55- 56 CN     : Country code (ISO3116 country codes)
+ 58- 66 LAT    : Latitude in degrees:minutes:seconds (+: North, -: South)
+ 68- 77 LON    : Longitude in degrees:minutes:seconds (+: East, -: West)
+ 79- 82 HGTH   : Station elevation in meters
+ 84- 87 ELEI   : Element identifier (see website at Daily Data > Data dictionary > Elements)
+ 89- 96 BEGIN  : Begin date YYYYMMDD
+ 98-105 END    : End date YYYYMMDD
+107-111 PARID  : Participant identifier
+113-163 PARNAME: Participant name
+
+STAID, SOUID,SOUNAME                                 ,CN,      LAT,       LON,HGHT,ELEI,   BEGIN,     END,PARID,PARNAME
+
+   43,102297,DRESDEN-KLOTZSCHE                       ,DE,+51:07:45,+013:45:22, 227, CC1,19340101,20210331,   11,National Climate Data Center (DWD)                
+   43,115735,DRESDEN WAHNSDORF                       ,DE,+51:07:00,+013:41:00, 246, CC1,19170101,19740630,   11,National Climate Data Center (DWD)                
+  483,102297,DRESDEN-KLOTZSCHE                       ,DE,+51:07:45,+013:45:22, 227, CC1,19340101,20210331,   11,National Climate Data Center (DWD)                
+  483,115735,DRESDEN WAHNSDORF                       ,DE,+51:07:00,+013:41:00, 246, CC1,19170101,19740630,   11,National Climate Data Center (DWD)                
+   43,190482,DRESDEN-KLOTZSCHE                       ,DE,+51:07:45,+013:45:22, 227, QQ2,19960901,20210228,   11,National Climate Data Center (DWD)                
+   43,190496,DRESDEN WAHNSDORF                       ,DE,+51:07:00,+013:41:00, 246, QQ2,19500101,19960831,   11,National Climate Data Center (DWD)                
+   43,209890,DRESDEN WAHNSDORF                       ,DE,+51:07:00,+013:41:00, 246, QQ6,19340101,19960831,   11,National Climate Data Center (DWD)                
+   43,210032,DRESDEN-KLOTZSCHE                       ,DE,+51:07:45,+013:45:22, 227, QQ6,19350201,20210331,   11,National Climate Data Center (DWD)                
+  483,190482,DRESDEN-KLOTZSCHE                       ,DE,+51:07:45,+013:45:22, 227, QQ2,19960901,20210228,   11,National Climate Data Center (DWD)                
+  483,190496,DRESDEN WAHNSDORF                       ,DE,+51:07:00,+013:41:00, 246, QQ2,19500101,19960831,   11,National Climate Data Center (DWD)                
+  483,209890,DRESDEN WAHNSDORF                       ,DE,+51:07:00,+013:41:00, 246, QQ6,19340101,19960831,   11,National Climate Data Center (DWD)                
+  483,210032,DRESDEN-KLOTZSCHE                       ,DE,+51:07:45,+013:45:22, 227, QQ6,19350201,20210331,   11,National Climate Data Center (DWD)                
+   43,102298,DRESDEN-KLOTZSCHE                       ,DE,+51:07:45,+013:45:22, 227, HU3,19340101,20210331,   11,National Climate Data Center (DWD)                
+   43,115738,DRESDEN WAHNSDORF                       ,DE,+51:07:00,+013:41:00, 246, HU3,19170101,19740630,   11,National Climate Data Center (DWD)                
+  483,102298,DRESDEN-KLOTZSCHE                       ,DE,+51:07:45,+013:45:22, 227, HU3,19340101,20210331,   11,National Climate Data Center (DWD)                
+  483,115738,DRESDEN WAHNSDORF                       ,DE,+51:07:00,+013:41:00, 246, HU3,19170101,19740630,   11,National Climate Data Center (DWD)                
+   43,100144,DRESDEN WAHNSDORF                       ,DE,+51:07:00,+013:41:00, 246, TX3,19170101,19740630,   11,National Climate Data Center (DWD)                
+   43,102304,DRESDEN-KLOTZSCHE                       ,DE,+51:07:45,+013:45:22, 227, TX3,19340101,20210331,   11,National Climate Data Center (DWD)                
+  483,100144,DRESDEN WAHNSDORF                       ,DE,+51:07:00,+013:41:00, 246, TX3,19170101,19740630,   11,National Climate Data Center (DWD)                
+  483,102304,DRESDEN-KLOTZSCHE                       ,DE,+51:07:45,+013:45:22, 227, TX3,19340101,20210331,   11,National Climate Data Center (DWD)                
+   43,100143,DRESDEN WAHNSDORF                       ,DE,+51:07:00,+013:41:00, 246, TG3,19170101,19740630,   11,National Climate Data Center (DWD)                
+   43,102302,DRESDEN-KLOTZSCHE                       ,DE,+51:07:45,+013:45:22, 227, TG3,19340101,20210331,   11,National Climate Data Center (DWD)                
+  483,100143,DRESDEN WAHNSDORF                       ,DE,+51:07:00,+013:41:00, 246, TG3,19170101,19740630,   11,National Climate Data Center (DWD)                
+  483,102302,DRESDEN-KLOTZSCHE                       ,DE,+51:07:45,+013:45:22, 227, TG3,19340101,20210331,   11,National Climate Data Center (DWD)                
+   43,100142,DRESDEN WAHNSDORF                       ,DE,+51:07:00,+013:41:00, 246, TN3,19170101,19740630,   11,National Climate Data Center (DWD)                
+   43,102303,DRESDEN-KLOTZSCHE                       ,DE,+51:07:45,+013:45:22, 227, TN3,19340101,20210331,   11,National Climate Data Center (DWD)                
+  483,100142,DRESDEN WAHNSDORF                       ,DE,+51:07:00,+013:41:00, 246, TN3,19170101,19740630,   11,National Climate Data Center (DWD)                
+  483,102303,DRESDEN-KLOTZSCHE                       ,DE,+51:07:45,+013:45:22, 227, TN3,19340101,20210331,   11,National Climate Data Center (DWD)                
+   43,100145,DRESDEN WAHNSDORF                       ,DE,+51:07:00,+013:41:00, 246, RR3,19170101,19740630,   11,National Climate Data Center (DWD)                
+   43,102300,DRESDEN-KLOTZSCHE                       ,DE,+51:07:45,+013:45:22, 227, RR3,19260425,20210331,   11,National Climate Data Center (DWD)                
+  483,100145,DRESDEN WAHNSDORF                       ,DE,+51:07:00,+013:41:00, 246, RR3,19170101,19740630,   11,National Climate Data Center (DWD)                
+  483,102300,DRESDEN-KLOTZSCHE                       ,DE,+51:07:45,+013:45:22, 227, RR3,19260425,20210331,   11,National Climate Data Center (DWD)                
+   43,115737,DRESDEN WAHNSDORF                       ,DE,+51:07:00,+013:41:00, 246, SD3,19170101,19661231,   11,National Climate Data Center (DWD)                
+  483,111464,DRESDEN-KLOTZSCHE                       ,DE,+51:07:45,+013:45:22, 227, SD3,19260426,20190828,   11,National Climate Data Center (DWD)                
+   43,102301,DRESDEN-KLOTZSCHE                       ,DE,+51:07:45,+013:45:22, 227, SS3,19350201,20210331,   11,National Climate Data Center (DWD)                
+   43,115736,DRESDEN WAHNSDORF                       ,DE,+51:07:00,+013:41:00, 246, SS3,19340101,19960831,   11,National Climate Data Center (DWD)                
+   43,910488,DRESDEN-KLOTZSCHE                       ,DE,+51:08:00,+013:45:00, 232, SS4,19930325,20200229,     ,                    
+  483,102301,DRESDEN-KLOTZSCHE                       ,DE,+51:07:45,+013:45:22, 227, SS3,19350201,20210331,   11,National Climate Data Center (DWD)                
+  483,115736,DRESDEN WAHNSDORF                       ,DE,+51:07:00,+013:41:00, 246, SS3,19340101,19960831,   11,National Climate Data Center (DWD)                
+  483,910488,DRESDEN-KLOTZSCHE                       ,DE,+51:08:00,+013:45:00, 232, SS4,19930325,20200229,     ,                    
+   43,115682,DRESDEN-KLOTZSCHE                       ,DE,+51:07:45,+013:45:22, 227, FX1,19730101,20210331,   11,National Climate Data Center (DWD)                
+   43,115740,DRESDEN WAHNSDORF                       ,DE,+51:07:00,+013:41:00, 246, FX1,19670101,19701228,   11,National Climate Data Center (DWD)                
+   43,910488,DRESDEN-KLOTZSCHE                       ,DE,+51:08:00,+013:45:00, 232, FX4,20000228,20200229,     ,                    
+  483,115682,DRESDEN-KLOTZSCHE                       ,DE,+51:07:45,+013:45:22, 227, FX1,19730101,20210331,   11,National Climate Data Center (DWD)                
+  483,115740,DRESDEN WAHNSDORF                       ,DE,+51:07:00,+013:41:00, 246, FX1,19670101,19701228,   11,National Climate Data Center (DWD)                
+  483,910488,DRESDEN-KLOTZSCHE                       ,DE,+51:08:00,+013:45:00, 232, FX4,20000228,20200229,     ,                    
+   43,115681,DRESDEN-KLOTZSCHE                       ,DE,+51:07:45,+013:45:22, 227, FG7,19730101,20210331,   11,National Climate Data Center (DWD)                
+   43,115739,DRESDEN WAHNSDORF                       ,DE,+51:07:00,+013:41:00, 246, FG7,19410101,19701231,   11,National Climate Data Center (DWD)                
+   43,910488,DRESDEN-KLOTZSCHE                       ,DE,+51:08:00,+013:45:00, 232, FG5,19911101,20190923,     ,                    
+  483,115681,DRESDEN-KLOTZSCHE                       ,DE,+51:07:45,+013:45:22, 227, FG7,19730101,20210331,   11,National Climate Data Center (DWD)                
+  483,115739,DRESDEN WAHNSDORF                       ,DE,+51:07:00,+013:41:00, 246, FG7,19410101,19701231,   11,National Climate Data Center (DWD)                
+  483,910488,DRESDEN-KLOTZSCHE                       ,DE,+51:08:00,+013:45:00, 232, FG5,19911101,20190923,     ,                    

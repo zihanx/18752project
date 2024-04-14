@@ -1,0 +1,21 @@
+EUROPEAN CLIMATE ASSESSMENT & DATASET (ECA&D), file created on 22-04-2021
+THESE DATA CAN BE USED FREELY PROVIDED THAT THE FOLLOWING SOURCE IS ACKNOWLEDGED:
+
+Klein Tank, A.M.G. and Coauthors, 2002. Daily dataset of 20th-century surface
+air temperature and precipitation series for the European Climate Assessment.
+Int. J. of Climatol., 22, 1441-1453.
+Data and metadata available at http://www.ecad.eu
+
+
+----------------------------------------------------------------
+64,BUDAPEST,HUNGARY,+47:30:40,+019:01:14,153 m 
+----------------------------------------------------------------
+* Land use:
+
+* Soil type:
+
+* Surface coverage:
+
+* History:
+Begin - End : Name / Latitude / Longitude / Elevation <br>19010101 - 19100228: Budapest also / 47:31 / 19:02 /  121 m<br>19100301 - 19850331: Budapest belterulet KMI / 47:31 / 19:02 / 119 m<br>19850401 - present: Budapest belterulet OMSZ Torony / 47:30:40 / 19:01:41 / 153.3 m<br><br>Measuring time until 1965:<br>- Mean temperature: average of 7, 14, and twice 21 UT<br>- Minimum and maximum temperature: 21-21 UT<br>
+

@@ -1,0 +1,43 @@
+EUROPEAN CLIMATE ASSESSMENT & DATASET (ECA&D), file created on 22-04-2021
+THESE DATA CAN BE USED FREELY PROVIDED THAT THE FOLLOWING SOURCE IS ACKNOWLEDGED:
+
+Klein Tank, A.M.G. and Coauthors, 2002. Daily dataset of 20th-century surface
+air temperature and precipitation series for the European Climate Assessment.
+Int. J. of Climatol., 22, 1441-1453.
+Data and metadata available at http://www.ecad.eu
+
+FILE FORMAT (MISSING VALUE CODE IS -9999):
+
+ 01- 05 STAID  : Station identifier
+ 07- 12 SOUID  : Source identifier
+ 14- 53 SOUNAME: Source name
+ 55- 56 CN     : Country code (ISO3116 country codes)
+ 58- 66 LAT    : Latitude in degrees:minutes:seconds (+: North, -: South)
+ 68- 77 LON    : Longitude in degrees:minutes:seconds (+: East, -: West)
+ 79- 82 HGTH   : Station elevation in meters
+ 84- 87 ELEI   : Element identifier (see website at Daily Data > Data dictionary > Elements)
+ 89- 96 BEGIN  : Begin date YYYYMMDD
+ 98-105 END    : End date YYYYMMDD
+107-111 PARID  : Participant identifier
+113-163 PARNAME: Participant name
+
+STAID, SOUID,SOUNAME                                 ,CN,      LAT,       LON,HGHT,ELEI,   BEGIN,     END,PARID,PARNAME
+
+   36,190894,PERPIGNAN                               ,FR,+42:44:14,+002:52:22,  42, QQ5,19801001,20171231,   72,Anatoly V. Tsvetkov                               
+   36,209885,PERPIGNAN                               ,FR,+42:44:14,+002:52:22,  42, QQ6,19310101,20050101,   10,Jean-Michel Soubeyroux                            
+   36,907747,PERPIGNAN                               ,FR,+42:44:00,+002:52:00,  47, QQ1,20160101,20200229,     ,                    
+   36,176122,PERPIGNAN                               ,FR,+42:44:14,+002:52:22,  42,HU13,19241201,20191231,   10,Jean-Michel Soubeyroux                            
+   36,907747,PERPIGNAN                               ,FR,+42:44:00,+002:52:00,  47, HU6,20150501,20200229,     ,                    
+   36,100116,PERPIGNAN                               ,FR,+42:44:14,+002:52:22,  42, TX6,19241117,20191231,   10,Jean-Michel Soubeyroux                            
+   36,907747,PERPIGNAN                               ,FR,+42:44:00,+002:52:00,  47, TX7,19820112,20200229,     ,                    
+   36,100843,PERPIGNAN                               ,FR,+42:44:14,+002:52:22,  42, TG5,19241117,20191231,   10,Jean-Michel Soubeyroux                            
+   36,907747,PERPIGNAN                               ,FR,+42:44:00,+002:52:00,  47, TG5,19820113,20200229,     ,                    
+   36,100115,PERPIGNAN                               ,FR,+42:44:14,+002:52:22,  42, TN2,19241117,20191231,   10,Jean-Michel Soubeyroux                            
+   36,907747,PERPIGNAN                               ,FR,+42:44:00,+002:52:00,  47, TN6,19820113,20200229,     ,                    
+   36,100117,PERPIGNAN                               ,FR,+42:44:14,+002:52:22,  42, RR9,19241117,20191231,   10,Jean-Michel Soubeyroux                            
+   36,907747,PERPIGNAN                               ,FR,+42:44:00,+002:52:00,  47, RR8,19820101,20200229,     ,                    
+   36,100118,PERPIGNAN                               ,FR,+42:44:14,+002:52:22,  42,PP23,19490101,20191231,   10,Jean-Michel Soubeyroux                            
+   36,907747,PERPIGNAN                               ,FR,+42:44:00,+002:52:00,  47,PP11,19800101,20200229,     ,                    
+   36,104959,PERPIGNAN                               ,FR,+42:44:14,+002:52:22,  42, SS1,19310101,20050101,   10,Jean-Michel Soubeyroux                            
+   36,176123,PERPIGNAN                               ,FR,+42:44:14,+002:52:22,  42,FG12,19241201,20191231,   10,Jean-Michel Soubeyroux                            
+   36,907747,PERPIGNAN                               ,FR,+42:44:00,+002:52:00,  47, FG5,19800101,20200229,     ,                    

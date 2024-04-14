@@ -1,0 +1,57 @@
+EUROPEAN CLIMATE ASSESSMENT & DATASET (ECA&D), file created on 23-04-2021
+THESE DATA CAN BE USED FREELY PROVIDED THAT THE FOLLOWING SOURCE IS ACKNOWLEDGED:
+
+Klein Tank, A.M.G. and Coauthors, 2002. Daily dataset of 20th-century surface
+air temperature and precipitation series for the European Climate Assessment.
+Int. J. of Climatol., 22, 1441-1453.
+Data and metadata available at http://www.ecad.eu
+
+FILE FORMAT (MISSING VALUE CODE IS -9999):
+
+ 01- 05 STAID  : Station identifier
+ 07- 12 SOUID  : Source identifier
+ 14- 53 SOUNAME: Source name
+ 55- 56 CN     : Country code (ISO3116 country codes)
+ 58- 66 LAT    : Latitude in degrees:minutes:seconds (+: North, -: South)
+ 68- 77 LON    : Longitude in degrees:minutes:seconds (+: East, -: West)
+ 79- 82 HGTH   : Station elevation in meters
+ 84- 87 ELEI   : Element identifier (see website at Daily Data > Data dictionary > Elements)
+ 89- 96 BEGIN  : Begin date YYYYMMDD
+ 98-105 END    : End date YYYYMMDD
+107-111 PARID  : Participant identifier
+113-163 PARNAME: Participant name
+
+STAID, SOUID,SOUNAME                                 ,CN,      LAT,       LON,HGHT,ELEI,   BEGIN,     END,PARID,PARNAME
+
+   10,141519,STOCKHOLM                               ,SE,+59:21:00,+018:03:00,  44,CC13,19610101,20111231,   56,Marcus Flarup                                     
+   10,902484,STOCKHOLM/OBSERVATORIET                 ,SE,+59:21:00,+018:04:00,  44, CC7,20041016,20041016,     ,                    
+   10,902485,STOCKHOLM                               ,SE,+59:21:00,+018:04:00,  52, CC7,19841007,20191030,     ,                    
+   10,101864,STOCKHOLM                               ,SE,+59:21:00,+018:03:00,  44, TX1,19610101,20041231,    1,Markku Rummukainen                                
+   10,136123,STOCKHOLM                               ,SE,+59:21:00,+018:03:00,  44, TX2,18820101,20210331,   56,Marcus Flarup                                     
+ 5464,101864,STOCKHOLM                               ,SE,+59:21:00,+018:03:00,  44, TX1,19610101,20041231,    1,Markku Rummukainen                                
+ 5464,136123,STOCKHOLM                               ,SE,+59:21:00,+018:03:00,  44, TX2,18820101,20210331,   56,Marcus Flarup                                     
+ 5464,136126,STOCKHOLM_A                             ,SE,+59:20:24,+018:03:36,  44, TX2,19961001,20210331,   56,Marcus Flarup                                     
+   10,100030,STOCKHOLM                               ,SE,+59:21:00,+018:03:00,  44, TG6,17560101,20031231,    2,Anders Moberg                                     
+   10,136122,STOCKHOLM                               ,SE,+59:21:00,+018:03:00,  44, TG6,18590101,20210331,   56,Marcus Flarup                                     
+ 5464,100030,STOCKHOLM                               ,SE,+59:21:00,+018:03:00,  44, TG6,17560101,20031231,    2,Anders Moberg                                     
+ 5464,136122,STOCKHOLM                               ,SE,+59:21:00,+018:03:00,  44, TG6,18590101,20210331,   56,Marcus Flarup                                     
+ 5464,136125,STOCKHOLM_A                             ,SE,+59:20:24,+018:03:36,  44, TG6,19961001,20210331,   56,Marcus Flarup                                     
+   10,136124,STOCKHOLM                               ,SE,+59:21:00,+018:03:00,  44, TN2,18820101,20210331,   56,Marcus Flarup                                     
+ 5464,136124,STOCKHOLM                               ,SE,+59:21:00,+018:03:00,  44, TN2,18820101,20210331,   56,Marcus Flarup                                     
+ 5464,136127,STOCKHOLM_A                             ,SE,+59:20:24,+018:03:36,  44, TN2,19961001,20210331,   56,Marcus Flarup                                     
+   10,138884,STOCKHOLM                               ,SE,+59:21:00,+018:03:00,  44, RR9,18590101,20210331,   56,Marcus Flarup                                     
+ 5464,138884,STOCKHOLM                               ,SE,+59:21:00,+018:03:00,  44, RR9,18590101,20210331,   56,Marcus Flarup                                     
+ 5464,138886,STOCKHOLM_A                             ,SE,+59:20:24,+018:03:36,  44, RR9,19961001,19971024,   56,Marcus Flarup                                     
+   10,141126,STOCKHOLM                               ,SE,+59:21:00,+018:03:00,  44,PP18,19610101,20111231,   56,Marcus Flarup                                     
+   10,160017,STOCKHOLM_A                             ,SE,+59:20:24,+018:03:36,  44,PP18,20121130,20210331,   56,Marcus Flarup                                     
+   10,902484,STOCKHOLM/OBSERVATORIET                 ,SE,+59:21:00,+018:04:00,  44,PP11,20041016,20200229,     ,                    
+   10,902485,STOCKHOLM                               ,SE,+59:21:00,+018:04:00,  52,PP11,19841007,20191030,     ,                    
+ 5464,141126,STOCKHOLM                               ,SE,+59:21:00,+018:03:00,  44,PP18,19610101,20111231,   56,Marcus Flarup                                     
+ 5464,160017,STOCKHOLM_A                             ,SE,+59:20:24,+018:03:36,  44,PP18,20121130,20210331,   56,Marcus Flarup                                     
+ 5464,902484,STOCKHOLM/OBSERVATORIET                 ,SE,+59:21:00,+018:04:00,  44,PP11,20041016,20200229,     ,                    
+ 5464,902485,STOCKHOLM                               ,SE,+59:21:00,+018:04:00,  52,PP11,19841007,20191030,     ,                    
+   10,138883,STOCKHOLM                               ,SE,+59:21:00,+018:03:00,  44, SD5,18930115,20201022,   56,Marcus Flarup                                     
+   10,902485,STOCKHOLM                               ,SE,+59:21:00,+018:04:00,  52, SD1,19880305,20190313,     ,                    
+   10,158048,STOCKHOLM                               ,SE,+59:21:00,+018:03:00,  44, DD4,19610101,20190930,   56,Marcus Flarup                                     
+   10,902484,STOCKHOLM/OBSERVATORIET                 ,SE,+59:21:00,+018:04:00,  44, DD4,20121129,20130430,     ,                    
+   10,902485,STOCKHOLM                               ,SE,+59:21:00,+018:04:00,  52, DD4,19880307,20190930,     ,                    

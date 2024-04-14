@@ -1,0 +1,21 @@
+EUROPEAN CLIMATE ASSESSMENT & DATASET (ECA&D), file created on 23-04-2021
+THESE DATA CAN BE USED FREELY PROVIDED THAT THE FOLLOWING SOURCE IS ACKNOWLEDGED:
+
+Klein Tank, A.M.G. and Coauthors, 2002. Daily dataset of 20th-century surface
+air temperature and precipitation series for the European Climate Assessment.
+Int. J. of Climatol., 22, 1441-1453.
+Data and metadata available at http://www.ecad.eu
+
+
+----------------------------------------------------------------
+5175,MALMO,SWEDEN,+55:36:36,+013:04:48,20 m 
+----------------------------------------------------------------
+* Land use:
+
+* Soil type:
+
+* Surface coverage:
+
+* History:
+relocated from 13:00:36E, 55:34:48N to 13:04:12E, 55:36:00N on January 2 1961<br>relocated from 13:04:12E, 55:36:00N to 13:04:48E, 55:36:36N on November 2 1972<br>relocated from 13:04:48E, 55:36:36N to 13:04:48E, 55:34:12N on February 2 1994<br>relocated from 13:04:48E, 55:34:12N to 13:00:36E, 55:34:48N on July 1 1980<br>relocated from 13:04:48E, 55:36:36N to 13:04:12E, 55:36:36N on April 1 1990<br>relocated from 13:04:48E, 55:36:36N to 13:00:36E, 55:34:48N on July 2 1980<br>relocated from 13:00:36E, 55:34:48N to 13:04:12E, 55:36:00N on January 1 1961<br>relocated from 13:04:12E, 55:36:00N to 13:04:48E, 55:36:36N on December 1 1973<br>relocated from 13:04:12E, 55:36:00N to 13:04:48E, 55:36:36N on January 2 1973
+
