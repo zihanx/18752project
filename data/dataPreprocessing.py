@@ -19,9 +19,6 @@ date_low = int(str(year_start) + "0101")  #20050101
 date_high = int(str(year_start + year_span) + "0101") #20150101
 print(f"Collect from {date_low} until {date_high}")
 
-# path_root = os.path.dirname(os.getcwd())
-# ecad_data_path = os.path.join(path_root, "ECAD_DATA")
-# data_path = os.path.join(ecad_data_path, "DUSSELDORF") #Only choose DUSSELDORF
 data_path = "data\\ECAD_DATA\\DUSSELDORF"
 data_collection = {}
 
